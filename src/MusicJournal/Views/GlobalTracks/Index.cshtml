@@ -1,0 +1,135 @@
+@model IEnumerable<MusicJournal.Models.GlobalTrack>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<MusicJournal.Models.ApplicationUser> SignInManager
+
+@{
+    ViewData["Title"] = "Trending Tracks";
+    var favoritedTracks = ViewBag.FavoritedTracks as List<string> ?? new List<string>();
+}
+
+<h1>Trending </h1>
+<p>Discover what's trending on spotify.</p>
+
+@{
+    var currentYear = DateTime.Now.Year;
+    var startYear = 1950;
+    var years = Enumerable.Range(startYear, currentYear - startYear + 1).Reverse();
+}
+
+<select id="yearSelect" class="form-select mb-3" style="width: 150px;">
+    <text>
+        @foreach (var year in years)
+        {
+            if (year == currentYear)
+            {
+                @:
+            <option value="@year" selected>@year</option>
+        }
+        else
+        {
+            @:
+            <option value="@year">@year</option>
+        }
+    }
+    </text>
+</select>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Album Art</th>
+            <th>Title</th>
+            <th>Artist</th>
+            <th>Album</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="tracksContainer">
+        <!-- rows will be loaded via ajax in _TracksPartial-->
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        // grab the antiforgery token
+        const token = '@Html.AntiForgeryToken()'.match(/value="([^"]+)"/)?.[1];
+
+        // function to bind favorite buttons for each row
+        function bindFavoriteButtons() {
+            document.querySelectorAll('.add-favorite-btn').forEach(button => {
+                button.addEventListener('click', async function() {
+                    const btn = this;
+
+                    // build favorite track object from button data attributes
+                    const favoriteTrack = {
+                        Title: btn.getAttribute('data-track-title'),
+                        Artist: btn.getAttribute('data-track-artist'),
+                        Album: btn.getAttribute('data-track-album') || '',
+                        SpotifyUrl: btn.getAttribute('data-track-spotify') || '',
+                        AlbumArtUrl: btn.getAttribute('data-track-albumart') || '',
+                        SpotifyId: btn.getAttribute('data-track-spotifyid')
+                    };
+
+                    // disable button while adding
+                    btn.disabled = true;
+                    btn.classList.remove('btn-warning');
+                    btn.classList.add('btn-secondary');
+                    btn.textContent = 'adding...';
+
+                    try {
+                        const response = await fetch('/FavoriteTracks/AddFromTrending', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'RequestVerificationToken': token
+                            },
+                            body: JSON.stringify(favoriteTrack)
+                        });
+
+                        const result = await response.json();
+
+                        if (result.success) {
+                            btn.textContent = 'added';
+                        } else {
+                            alert(result.message);
+                            btn.disabled = false;
+                            btn.classList.remove('btn-secondary');
+                            btn.classList.add('btn-warning');
+                            btn.textContent = 'add';
+                        }
+                    } catch (error) {
+                        console.error('error:', error);
+                        alert('failed to add. please try again.');
+                        btn.disabled = false;
+                        btn.classList.remove('btn-secondary');
+                        btn.classList.add('btn-warning');
+                        btn.textContent = 'add';
+                    }
+                });
+            });
+        }
+
+        // function to load tracks for a given year via ajax
+        function loadTracks(year) {
+            fetch(`/GlobalTracks/GetByYear?year=${year}`)
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById("tracksContainer").innerHTML = html;
+                    bindFavoriteButtons(); // re-bind favorite buttons after ajax
+                })
+                .catch(err => console.error("error loading tracks:", err));
+        }
+
+        // on page load, auto-load current year
+        document.addEventListener("DOMContentLoaded", () => {
+            const yearSelect = document.getElementById("yearSelect");
+            loadTracks(yearSelect.value);
+
+            // when user changes the year, reload tracks
+            yearSelect.addEventListener("change", () => {
+                loadTracks(yearSelect.value);
+            });
+        });
+    </script>
+}

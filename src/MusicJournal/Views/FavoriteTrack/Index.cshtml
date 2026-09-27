@@ -1,0 +1,56 @@
+@model IEnumerable<MusicJournal.Models.FavoriteTrack>
+
+@{
+    ViewData["Title"] = "My Favorite Tracks";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>My Favorite Tracks</h1>
+    <a asp-action="Create" class="btn btn-primary">+ Add Favorite</a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        You haven't added any favorite tracks yet. Start building your collection!
+    </div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Album Art</th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Album</th>
+                <th>Date Added</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.AlbumArtUrl))
+                        {
+                            <img src="@item.AlbumArtUrl" alt="Album Art" style="width: 100px; height: 100px; object-fit: cover;" />
+                        }
+                    </td>
+                    <td>@item.Title</td>
+                    <td>@item.Artist</td>
+                    <td>@item.Album</td>
+                    <td>@item.CreatedAt.ToShortDateString()</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.SpotifyUrl))
+                        {
+                            <a href="@item.SpotifyUrl" target="_blank" class="btn btn-sm btn-success">Spotify</a>
+                        }
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,176 @@
+@model IEnumerable<MusicJournal.Models.RecTrack>
+
+    @{
+    ViewData["Title"] = "AI Music Recommendations";
+    }
+
+    <h1>AI Music Recommendations</h1>
+    <p>Based on your favorite tracks, here's what you might enjoy:</p>
+
+    <div class="mt-4">
+        <a asp-controller="FavoriteTracks" asp-action="Index" class="btn btn-secondary">Back to Favorites</a>
+
+        <a asp-controller="Recommendations" asp-action="GenerateNew" class="btn btn-primary">
+            Generate New Recommendations
+        </a>
+
+        <button id="showModalBtn" class="btn btn-warning">
+            Generate From Select Favorites
+        </button>
+    </div>
+
+    @if (!Model.Any())
+{
+    <div class="alert alert-warning">
+        @ViewBag.Message
+        <a asp-controller="FavoriteTracks" asp-action="Create" class="alert-link">Add your first favorite track</a>
+    </div>
+}
+else
+{
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Album Art</th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Album</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.AlbumArtUrl))
+                        {
+                    <img src="@item.AlbumArtUrl" alt="Album Art" style="width:100px;height:100px;object-fit:cover;" />
+                        }
+                </td>
+                <td>@item.Title</td>
+                <td>@item.Artist</td>
+                <td>@item.Album</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.SpotifyUrl))
+                        {
+                    <a href="@item.SpotifyUrl" target="_blank" class="btn btn-sm btn-success">Spotify</a>
+                        }
+
+                    <form asp-action="AddToFavorites" method="post" class="add-to-fav-form" style="display:inline-block;">
+                        <input type="hidden" name="title" value="@item.Title" />
+                        <input type="hidden" name="artist" value="@item.Artist" />
+                        <input type="hidden" name="album" value="@item.Album" />
+                        <input type="hidden" name="spotifyUrl" value="@item.SpotifyUrl" />
+                        <input type="hidden" name="spotifyId" value="@item.SpotifyId" />
+                        <input type="hidden" name="albumArtUrl" value="@item.AlbumArtUrl" />
+                        <button type="submit" class="btn btn-outline-primary btn-sm">
+                            Add to Favorites
+                        </button>
+                    </form>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+
+    <div id="recsModal" style="display:none;
+     position:fixed; top:0; left:0; width:100%; height:100%;
+     background-color: rgba(0,0,0,0.5); justify-content:center; align-items:center; z-index:1000;">
+        <div style="background:white; padding:20px; border-radius:5px; max-width:900px; width:95%; max-height:80%; overflow-y:auto;">
+            <h5>Select Favorites to Base Recommendations On</h5>
+
+            <form method="post" action="/Recommendations/GenerateFromSelected">
+                <div class="mb-2">
+                    <input type="checkbox" id="selectAll" />
+                    <label for="selectAll"><strong>Select All</strong></label>
+                </div>
+
+                <table class="table table-sm table-borderless">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Album Art</th>
+                            <th>Title</th>
+                            <th>Artist</th>
+                            <th>Album</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var fav in ViewBag.AllFavorites as List<MusicJournal.Models.FavoriteTrack>)
+                    {
+                        <tr>
+                            <td class="text-center">
+                                <input class="form-check-input fav-checkbox" type="checkbox"
+                                       name="selected"
+                                       value="@fav.Title by @fav.Artist"
+                                       id="fav-@fav.Id" />
+                            </td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(fav.AlbumArtUrl))
+                                {
+                                <img src="@fav.AlbumArtUrl" alt="Album Art" style="width:50px;height:50px;object-fit:cover;" />
+                                }
+                            </td>
+                            <td>@fav.Title</td>
+                            <td>@fav.Artist</td>
+                            <td>@fav.Album</td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+
+                <button type="submit" class="btn btn-success mt-2">Generate</button>
+            </form>
+
+            <button id="closeModalBtn" class="btn btn-secondary mt-2">Close</button>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            document.getElementById('showModalBtn').onclick = function () {
+                document.getElementById('recsModal').style.display = 'flex';
+            };
+
+            document.getElementById('closeModalBtn').onclick = function () {
+                document.getElementById('recsModal').style.display = 'none';
+            };
+
+            window.onclick = function (event) {
+                var modal = document.getElementById('recsModal');
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            };
+
+            const selectAllCheckbox = document.getElementById('selectAll');
+            selectAllCheckbox.addEventListener('change', function () {
+                const checkboxes = document.querySelectorAll('.fav-checkbox');
+                checkboxes.forEach(cb => cb.checked = selectAllCheckbox.checked);
+            });
+
+            // Add to Favorites button action
+            document.querySelectorAll('.add-to-fav-form').forEach(form => {
+                const button = form.querySelector('button');
+
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    const formData = new FormData(form);
+
+                    // Button update
+                    button.innerText = 'Added!';
+                    button.classList.remove('btn-outline-primary');
+                    button.classList.add('btn-success');
+                    button.disabled = true;
+
+                    fetch(form.action, {
+                        method: 'POST',
+                        body: formData
+                    });
+                });
+            });
+        });
+    </script>

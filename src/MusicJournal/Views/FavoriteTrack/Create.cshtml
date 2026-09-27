@@ -1,0 +1,124 @@
+@model MusicJournal.Models.ViewModels.CreateFavoriteViewModel
+
+@{
+    ViewData["Title"] = "Add Favorite Track";
+}
+
+<div class="row">
+    <div class="col">
+        @* Search Bar Section *@
+        <div class="card mb-4">
+            <div class="card-header">
+                <h2>Add a Favorite Song</h2>
+            </div>
+            <div class="card-body">
+                <form asp-action="Create" method="get">
+                    <div class="input-group">
+                        <input type="text" name="searchQuery" class="form-control" 
+                               placeholder="Search by song title or artist..." 
+                               value="@Model.SearchQuery" />
+                        <button class="btn btn-primary" type="submit">
+                            Search
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        @* Search Results Section *@
+        @if (Model.SearchResults != null && Model.SearchResults.Any())
+        {
+            <div class="card">
+                <div class="card-header">
+                    <h5>Search Results for "@Model.SearchQuery"</h5>
+                </div>
+
+                <div class="card-body">
+                    <div class="list-group">
+                        @foreach (var track in Model.SearchResults)
+                        {
+                            <div class="list-group-item">
+                                <div class="d-flex w-100 align-items-center">
+                                    @if (!string.IsNullOrEmpty(track.AlbumArtUrl))
+                                    {
+                                        <img src="@track.AlbumArtUrl" alt="Album cover" 
+                                             style="width: 100px; height: 100px; object-fit: cover; margin-right: 15px;" />
+                                    }
+
+                                    <div class="flex-grow-1">
+                                        <h5 class="mb-1">@track.Title</h5>
+                                        <p class="mb-1"><strong>Artist:</strong> @track.Artist</p>
+                                        @if (!string.IsNullOrEmpty(track.Album))
+                                        {
+                                            <small class="text-muted">Album: @track.Album</small>
+                                        }
+                                    </div>
+
+                                    <form asp-action="AddToFavorites" method="post" style="display: inline;">
+                                        <input type="hidden" name="Title" value="@track.Title" />
+                                        <input type="hidden" name="Artist" value="@track.Artist" />
+                                        <input type="hidden" name="Album" value="@track.Album" />
+                                        <input type="hidden" name="SpotifyUrl" value="@track.SpotifyUrl" />
+                                        <input type="hidden" name="AlbumArtUrl" value="@track.AlbumArtUrl" />
+                                        <input type="hidden" name="SpotifyId" value="@track.SpotifyId" />
+                                        <button type="submit" class="btn btn-success">
+                                            <i class="bi bi-heart-fill"></i> Add to Favorites
+                                        </button>
+                                        @Html.AntiForgeryToken()
+                                    </form>
+
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="d-flex mt-4 @(Model.SearchPages >= 2 ? "justify-content-between" : "justify-content-center")">
+                        @if (Model.SearchPages >= 2)
+                        {
+                            <form asp-action="Create" method="get">
+                                <input type="hidden" name="searchQuery" value="@Model.SearchQuery" />
+                                <input type="hidden" name="searchPages" value="@(Model.SearchPages - 1)" />
+                                <button type="submit" class="btn btn-outline-primary">
+                                    <i class="bi bi-arrow-down-circle"></i> Previous Results
+                                </button>
+                            </form>
+                        }
+                        
+                        @if (Model.HasMoreResults)
+                        {
+                            <form asp-action="Create" method="get">
+                                <input type="hidden" name="searchQuery" value="@Model.SearchQuery" />
+                                <input type="hidden" name="searchPages" value="@(Model.SearchPages + 1)" />
+                                <button type="submit" class="btn btn-outline-primary">
+                                    <i class="bi bi-arrow-down-circle"></i> Load More Results
+                                </button>
+                            </form>
+                        }
+                        else
+                        {
+                            <div class="text-center mt-3">
+                                <p class="text-muted">All matching results displayed</p>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+        else if (!string.IsNullOrEmpty(Model.SearchQuery))
+        {
+            <div class="alert alert-info">
+                No songs found for "@Model.SearchQuery". Try a different search term.
+            </div>
+        }
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Index" class="btn btn-secondary">Back to Favorites</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

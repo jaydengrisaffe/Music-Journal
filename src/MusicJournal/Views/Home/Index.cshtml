@@ -1,8 +1,174 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<MusicJournal.Models.ApplicationUser> SignInManager
+@inject UserManager<MusicJournal.Models.ApplicationUser> UserManager
+
+@{
     ViewData["Title"] = "Home Page";
+    var user = await UserManager.GetUserAsync(User);
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="hero-section text-center py-5">
+    <div class="container">
+        <h1 class="display-3 fw-bold mb-3">Music Journal</h1>
+        <p class="lead fs-4 mb-4">Discover and Save Songs. Get Personalized Track Recommendations.</p>
+
+        @if (SignInManager.IsSignedIn(User))
+        {
+            var currentUser = await UserManager.GetUserAsync(User);
+
+            var nameToShow = !string.IsNullOrWhiteSpace(currentUser?.DisplayName)
+                ? currentUser.DisplayName
+                : User.Identity?.Name;
+            <p class="fs-3">Welcome back, <strong>@nameToShow</strong>!</p>
+        }
+        else
+        {
+            <div class="alert alert-info d-inline-block">
+                <i class="bi bi-info-circle"></i>
+                <a asp-area="Identity" asp-page="/Account/Login" class="alert-link fw-bold">Log in</a>
+                or
+                <a asp-area="Identity" asp-page="/Account/Register" class="alert-link fw-bold">register</a>
+                to get personalized music recommendations!
+            </div>
+        }
+    </div>
+</div>
+
+<!-- If user logged in and has favorites, display a single recommendation -->
+<div class="container my-5">
+
+    @if (SignInManager.IsSignedIn(User) && ViewBag.TopRecommendation != null)
+    {
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <div class="card border-0 shadow-lg recommendation-card">
+                    <div class="card-body p-4">
+                        <h3 class="card-title mb-3">
+                            <i class="bi bi-stars"></i> Your Top Recommendation
+                        </h3>
+                        <div class="recommendation-highlight p-4 rounded">
+                            <h4 class="mb-3">@ViewBag.TopRecommendation</h4>
+                            <p class="text-muted mb-3">Based on your favorite tracks</p>
+                            <a asp-controller="Recommendations" asp-action="Index" class="btn btn-primary">
+                                See All Recommendations
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else if (SignInManager.IsSignedIn(User))
+    {
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <div class="alert alert-warning">
+                    <h5><i class="bi bi-music-note-list"></i> Get Started!</h5>
+                    <p class="mb-2">You haven't added any favorite tracks yet. Add some favorites to receive personalized track recommendations!</p>
+                    <a asp-controller="FavoriteTracks" asp-action="Create" class="btn btn-warning">Add Your First Favorite</a>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- Nav buttons -->
+    <div class="row g-4 mb-5">
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow action-card">
+                <div class="card-body text-center p-4">
+                    <h3 class="card-title h4">Trending Songs</h3>
+                    <p class="card-text text-muted">
+                        Explore the most popular tracks trending worldwide by year on Spotify.
+                    </p>
+                    <a asp-controller="GlobalTracks" asp-action="Index" class="btn btn-primary btn-lg w-100">
+                        Browse Trending
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow action-card">
+                <div class="card-body text-center p-4">
+                    <h3 class="card-title h4">My Favorites</h3>
+                    <p class="card-text text-muted">
+                        Build your personal collection of favorite songs and artists.
+                    </p>
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <a asp-controller="FavoriteTracks" asp-action="Index" class="btn btn-success btn-lg w-100">
+                            View Favorites
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-secondary btn-lg w-100">
+                            Login Required
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow action-card">
+                <div class="card-body text-center p-4">
+                    <h3 class="card-title h4">Recommendations</h3>
+                    <p class="card-text text-muted">
+                        Get personalized song suggestions powered by Spotify based on your taste.
+                    </p>
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <a asp-controller="Recommendations" asp-action="Index" class="btn btn-info btn-lg w-100">
+                            Get Recommendations
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-secondary btn-lg w-100">
+                            Login Required
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info -->
+    <div class="row mb-5">
+        <div class="col-md-12">
+            <h2 class="text-center mb-4">How It Works</h2>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-3">
+            <div class="text-center">
+                <div class="step-number mb-3">1</div>
+                <h5>Browse Top Tracks</h5>
+                <p class="text-muted">Explore top trending songs on Spotify by year</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="text-center">
+                <div class="step-number mb-3">2</div>
+                <h5>Add Favorites</h5>
+                <p class="text-muted">Save your favorite songs to your collection</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="text-center">
+                <div class="step-number mb-3">3</div>
+                <h5>Get Recommendations</h5>
+                <p class="text-muted">Spotify analyzes your favorite tracks and suggests similar songs</p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="text-center">
+                <div class="step-number mb-3">4</div>
+                <h5>Discover More</h5>
+                <p class="text-muted">Expand your music collection with personalized picks</p>
+            </div>
+        </div>
+    </div>
 </div>

@@ -1,0 +1,43 @@
+@model MusicJournal.Models.FavoriteTrack
+
+@{
+    ViewData["Title"] = "Delete Favorite Track";
+}
+
+<h1>Delete Favorite Track</h1>
+
+<h3 class="text-danger">Are you sure you want to remove this track from your favorites?</h3>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Title:</dt>
+            <dd class="col-sm-9">@Model.Title</dd>
+
+            <dt class="col-sm-3">Artist:</dt>
+            <dd class="col-sm-9">@Model.Artist</dd>
+
+            <dt class="col-sm-3">Album:</dt>
+            <dd class="col-sm-9">@Model.Album</dd>
+
+            <dt class="col-sm-3">Spotify URL:</dt>
+            <dd class="col-sm-9">@Model.SpotifyUrl</dd>
+
+            <dt class="col-sm-3">Date Added:</dt>
+            <dd class="col-sm-9">@Model.CreatedAt.ToShortDateString()</dd>
+        </dl>
+
+        @if (!string.IsNullOrEmpty(Model.SpotifyUrl))
+        {
+            <a href="@Model.SpotifyUrl" target="_blank" class="btn btn-sm btn-success">
+                View on Spotify
+            </a>
+        }
+    </div>
+</div>
+
+<form asp-action="Delete" method="post" class="mt-3">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Confirm Delete</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
+</form>
