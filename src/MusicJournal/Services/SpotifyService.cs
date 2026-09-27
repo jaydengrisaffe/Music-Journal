@@ -1,7 +1,7 @@
-using Newtonsoft.Json.Linq;
 using System.Net.Http.Headers;
+using System.Text;
+using Newtonsoft.Json.Linq;
 using MusicJournal.Models;
-using MusicJournal.Models.ViewModels;
 
 namespace MusicJournal.Services
 {
@@ -9,8 +9,7 @@ namespace MusicJournal.Services
     {
         private readonly HttpClient _http;
         private readonly IConfiguration _config;
-
-        private string _accessToken = null!; // limit on access token, cache it
+        private string? _cachedToken;
         private DateTime _tokenExpiration;
 
         public SpotifyService(HttpClient http, IConfiguration config)
@@ -21,166 +20,147 @@ namespace MusicJournal.Services
 
         private async Task<string> GetAccessToken()
         {
-            // if token exists and is not expired, reuse it
-            if (!string.IsNullOrEmpty(_accessToken) && DateTime.UtcNow < _tokenExpiration)
+            if (!string.IsNullOrEmpty(_cachedToken) && DateTime.UtcNow < _tokenExpiration)
             {
-                return _accessToken;
+                return _cachedToken;
             }
 
             var clientId = _config["Spotify:ClientId"];
             var clientSecret = _config["Spotify:ClientSecret"];
-            var auth = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes($"{clientId}:{clientSecret}"));
 
-            var request = new HttpRequestMessage(HttpMethod.Post, "https://accounts.spotify.com/api/token");
-            request.Headers.Authorization = new AuthenticationHeaderValue("Basic", auth);
-            request.Content = new FormUrlEncodedContent(new Dictionary<string, string>
-        {
-            {"grant_type", "client_credentials" }
-        });
-
-            var response = await _http.SendAsync(request);
-            var responseBody = await response.Content.ReadAsStringAsync();
-
-            if (!response.IsSuccessStatusCode)
+            if (string.IsNullOrEmpty(clientId) || string.IsNullOrEmpty(clientSecret))
             {
-                throw new Exception($"Failed to get access token: {response.StatusCode} - {responseBody}");
+                throw new InvalidOperationException("Spotify ClientId or ClientSecret is missing from appsettings.");
             }
 
-            var json = JObject.Parse(responseBody);
-            _accessToken = json["access_token"]!.ToString();
+            var authHeader = Convert.ToBase64String(Encoding.UTF8.GetBytes($"{clientId}:{clientSecret}"));
 
-            // expires_in is in seconds
-            var expiresIn = json["expires_in"]?.ToObject<int>() ?? 3600;
-            _tokenExpiration = DateTime.UtcNow.AddSeconds(expiresIn - 60); // subtract 60 sec buffer
+            var request = new HttpRequestMessage(HttpMethod.Post, "https://accounts.spotify.com/api/token");
+            request.Headers.Authorization = new AuthenticationHeaderValue("Basic", authHeader);
+            request.Content = new FormUrlEncodedContent(new[]
+            {
+                new KeyValuePair<string, string>("grant_type", "client_credentials")
+            });
 
-            return _accessToken;
+            var response = await _http.SendAsync(request);
+            if (!response.IsSuccessStatusCode)
+            {
+                var errBody = await response.Content.ReadAsStringAsync();
+                throw new Exception($"Failed to authenticate with Spotify ({response.StatusCode}): {errBody}");
+            }
+
+            var json = JObject.Parse(await response.Content.ReadAsStringAsync());
+            _cachedToken = json["access_token"]?.ToString() ?? throw new InvalidOperationException("Failed to retrieve access token.");
+            
+            var expiresInSeconds = json["expires_in"]?.Value<int>() ?? 3600;
+            _tokenExpiration = DateTime.UtcNow.AddSeconds(expiresInSeconds - 300);
+
+            return _cachedToken;
         }
 
         public async Task<List<GlobalTrack>> GetTop50Playlist(int year)
         {
             var token = await GetAccessToken();
-
-            // Get popular tracks by the year
-            var request = new HttpRequestMessage(HttpMethod.Get,
-                $"https://api.spotify.com/v1/search?q=year:{year}&type=track&limit=50&market=US");
-            request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
-
-            var response = await _http.SendAsync(request);
-            var responseBody = await response.Content.ReadAsStringAsync();
-
-            if (!response.IsSuccessStatusCode)
-            {
-                throw new Exception($"Spotify API error: {response.StatusCode} - {responseBody}");
-            }
-
-            var json = JObject.Parse(responseBody);
-            var tracks = json["tracks"]["items"];
-
-            var result = new List<GlobalTrack>();
-            int rank = 1;
-
-            foreach (var track in tracks)
-            {
-                if (track == null) continue;
-
-                result.Add(new GlobalTrack
-                {
-                    Rank = rank++,
-                    Title = track["name"]?.ToString(),
-                    Artist = track["artists"][0]["name"]?.ToString(),
-                    Album = track["album"]["name"]?.ToString(),
-                    SpotifyUrl = track["external_urls"]["spotify"]?.ToString(),
-                    AlbumArtUrl = track["album"]["images"][0]["url"]?.ToString(),
-                    //Genre = "N/a"
-
-                    SpotifyId = track["id"]?.ToString()
-                });
-            }
-
-            return result;
-        }
-
-        public async Task<(List<TrackResult> Results, bool HasMoreResults)> GetSearchedFavorites(string search_query, int searchPages, int searchSize, string search_country)
-        {
-            if (string.IsNullOrWhiteSpace(search_query))
-            {
-                return (new List<TrackResult>(), false);
-            }
-
-            // Authorization for Spotify API
-            var token = await GetAccessToken();
-
-            // Offset used for getting more results if needed
-            //var total_searches = searchPages * searchSize;
-            var search_offset = (searchPages - 1) * searchSize;
-
-            // Get tracks based on search query
-            var search_request = $"https://api.spotify.com/v1/search?q=${Uri.EscapeDataString(search_query)}&type=track&market={search_country}&limit={searchSize+1}&offset={search_offset}";
-            var request = new HttpRequestMessage(HttpMethod.Get, search_request);
-            request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
-
-            var response = await _http.SendAsync(request);
-            var responseBody = await response.Content.ReadAsStringAsync();
-
-            if (!response.IsSuccessStatusCode)
-            {
-                throw new Exception($"Spotify API error: {response.StatusCode} - {responseBody}");
-            }
-
-            var json = JObject.Parse(responseBody);
-            var tracks = json["tracks"]["items"];
-
-            var result = new List<TrackResult>();
-
-            foreach (var track in tracks)
-            {
-                if (track == null) continue;
-
-                result.Add(new TrackResult
-                {
-                    Title = track["name"]?.ToString(),
-                    Artist = track["artists"][0]["name"]?.ToString(),
-                    Album = track["album"]["name"]?.ToString(),
-                    SpotifyUrl = track["external_urls"]["spotify"]?.ToString(),
-                    AlbumArtUrl = track["album"]["images"][0]["url"]?.ToString(),
-
-                    SpotifyId = track["id"]?.ToString()
-                });
-            }
-
-            bool HasMoreResults = result.Count > searchSize;
-
-            if (HasMoreResults)
-            {
-                result.RemoveAt(result.Count - 1);
-            }
-
-            return (result, HasMoreResults);
-        }
-
-        public async Task<RecTrack> GetTrackInfo(string title, string artist)
-        {
-            var token = await GetAccessToken();
-            string query = $"{title} {artist}";
-            var url = $"https://api.spotify.com/v1/search?q={Uri.EscapeDataString(query)}&type=track&limit=1&market=US";
+            
+            var url = $"https://api.spotify.com/v1/search?q=year:{year}&type=track&limit=50&market=US";
 
             var request = new HttpRequestMessage(HttpMethod.Get, url);
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
             var response = await _http.SendAsync(request);
+            
+            if (!response.IsSuccessStatusCode)
+            {
+                var responseBody = await response.Content.ReadAsStringAsync();
+                throw new Exception($"Spotify API error: {response.StatusCode} - {responseBody}");
+            }
+
             var json = JObject.Parse(await response.Content.ReadAsStringAsync());
-            var item = json["tracks"]["items"]?.FirstOrDefault();
+            var items = json["tracks"]?["items"];
+
+            var globalTracks = new List<GlobalTrack>();
+
+            if (items != null)
+            {
+                int currentRank = 1;
+                foreach (var item in items)
+                {
+                    globalTracks.Add(new GlobalTrack
+                    {
+                        Title = item["name"]?.ToString() ?? "Unknown Title",
+                        Artist = item["artists"]?[0]?["name"]?.ToString() ?? "Unknown Artist",
+                        Album = item["album"]?["name"]?.ToString(),
+                        Rank = currentRank++,
+                        SpotifyId = item["id"]?.ToString(),
+                        SpotifyUrl = item["external_urls"]?["spotify"]?.ToString(),
+                        AlbumArtUrl = item["album"]?["images"]?[0]?["url"]?.ToString()
+                    });
+                }
+            }
+
+            return globalTracks;
+        }
+
+        public async Task<List<FavoriteTrack>> GetSearchedFavorites(string query, int page = 1, int limit = 10, string? market = "US")
+        {
+            var token = await GetAccessToken();
+            var offset = (page - 1) * limit;
+            var url = $"https://api.spotify.com/v1/search?q={Uri.EscapeDataString(query)}&type=track&limit={limit}&offset={offset}&market=US";
+
+            var request = new HttpRequestMessage(HttpMethod.Get, url);
+            request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var response = await _http.SendAsync(request);
+            if (!response.IsSuccessStatusCode) return new List<FavoriteTrack>();
+
+            var json = JObject.Parse(await response.Content.ReadAsStringAsync());
+            var items = json["tracks"]?["items"];
+
+            var results = new List<FavoriteTrack>();
+            if (items != null)
+            {
+                foreach (var item in items)
+                {
+                    results.Add(new FavoriteTrack
+                    {
+                        Title = item["name"]?.ToString() ?? "",
+                        Artist = item["artists"]?[0]?["name"]?.ToString() ?? "",
+                        Album = item["album"]?["name"]?.ToString() ?? "",
+                        SpotifyUrl = item["external_urls"]?["spotify"]?.ToString() ?? "",
+                        AlbumArtUrl = item["album"]?["images"]?[0]?["url"]?.ToString() ?? "",
+                        SpotifyId = item["id"]?.ToString() ?? ""
+                    });
+                }
+            }
+
+            return results;
+        }
+
+        // Overload to support GetTrackInfo(title, artist) used in RecommendationsController
+        public async Task<RecTrack?> GetTrackInfo(string title, string artist)
+        {
+            var token = await GetAccessToken();
+            var query = Uri.EscapeDataString($"track:{title} artist:{artist}");
+            var url = $"https://api.spotify.com/v1/search?q={query}&type=track&limit=1&market=US";
+
+            var request = new HttpRequestMessage(HttpMethod.Get, url);
+            request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var response = await _http.SendAsync(request);
+            if (!response.IsSuccessStatusCode) return null;
+
+            var json = JObject.Parse(await response.Content.ReadAsStringAsync());
+            var item = json["tracks"]?["items"]?.FirstOrDefault();
 
             if (item == null) return null;
 
             return new RecTrack
             {
-                Title = item["name"]?.ToString(),
-                Artist = item["artists"][0]["name"]?.ToString(),
-                Album = item["album"]["name"]?.ToString(),
-                SpotifyUrl = item["external_urls"]["spotify"]?.ToString(),
-                AlbumArtUrl = item["album"]["images"]?[0]?["url"]?.ToString(),
-
+                Title = item["name"]?.ToString() ?? title,
+                Artist = item["artists"]?[0]?["name"]?.ToString() ?? artist,
+                Album = item["album"]?["name"]?.ToString(),
+                SpotifyUrl = item["external_urls"]?["spotify"]?.ToString(),
+                AlbumArtUrl = item["album"]?["images"]?[0]?["url"]?.ToString(),
                 SpotifyId = item["id"]?.ToString()
             };
         }
@@ -190,13 +170,16 @@ namespace MusicJournal.Services
             var recs = new List<RecTrack>();
             var token = await GetAccessToken();
 
-            // Pick up to 3 random favorite track strings to use as search inspiration
             var random = new Random();
             var seedTracks = favoriteTracks.OrderBy(_ => random.Next()).Take(3).ToList();
 
+            if (!seedTracks.Any())
+            {
+                seedTracks.Add("pop hits");
+            }
+
             foreach (var seed in seedTracks)
             {
-                // Extract title/artist keyword
                 var query = Uri.EscapeDataString(seed);
                 var url = $"https://api.spotify.com/v1/search?q={query}&type=track&limit={count}&market=US";
 
@@ -226,11 +209,10 @@ namespace MusicJournal.Services
                 }
             }
 
-            // Shuffle and take requested count
             return recs.DistinctBy(r => $"{r.Title}|{r.Artist}".ToLower())
-                    .OrderBy(_ => random.Next())
-                    .Take(count)
-                    .ToList();
+                       .OrderBy(_ => random.Next())
+                       .Take(count)
+                       .ToList();
         }
     }
 }

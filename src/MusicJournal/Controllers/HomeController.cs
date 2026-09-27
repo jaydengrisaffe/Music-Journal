@@ -1,11 +1,11 @@
 using System.Diagnostics;
-using MusicJournal.Models;
-using Microsoft.AspNetCore.Mvc;
-using MusicJournal.Data;
-using MusicJournal.Services;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MusicJournal.Data;
+using MusicJournal.Models;
 using MusicJournal.Models.ViewModels;
+using MusicJournal.Services;
 
 namespace MusicJournal.Controllers
 {
@@ -14,49 +14,61 @@ namespace MusicJournal.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly ApplicationDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
-        private readonly IAIService _aiservice;
+        private readonly IAIService _aiService;
+        private readonly SpotifyService _spotifyService;
 
-        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context, UserManager<ApplicationUser> userManager, IAIService aiservice)
+        public HomeController(
+            ILogger<HomeController> logger, 
+            ApplicationDbContext context, 
+            UserManager<ApplicationUser> userManager, 
+            IAIService aiService,
+            SpotifyService spotifyService)
         {
             _logger = logger;
             _context = context;
             _userManager = userManager;
-            _aiservice = aiservice;
+            _aiService = aiService;
+            _spotifyService = spotifyService;
         }
 
         public async Task<IActionResult> Index()
         {
-            if(User.Identity.IsAuthenticated)
+            if (User.Identity?.IsAuthenticated == true)
             {
                 var user = await _userManager.GetUserAsync(User);
 
-                // get the favs to generate a rec
-                var favorites = await _context.FavoriteTracks
-                    .Where(f => f.UserId == user.Id)
-                    .ToListAsync();
-
-                if (favorites.Any())
+                if (user != null)
                 {
-                    try
+                    // Fetch user's favorite tracks to generate a recommendation
+                    var favorites = await _context.FavoriteTracks
+                        .Where(f => f.UserId == user.Id)
+                        .ToListAsync();
+
+                    if (favorites.Any())
                     {
-                        var trackDescriptions = favorites
-                            .Take(5)
-                            .Select(f => $"{f.Title} by {f.Artist}")
-                            .ToList();
-
-                        var recommendations = await _aiservice.GenerateMusicRecommendations(trackDescriptions, 1);
-
-                        if (recommendations.Any())
+                        try
                         {
-                            ViewBag.TopRecommendation = recommendations.First();
+                            var trackDescriptions = favorites
+                                .Take(5)
+                                .Select(f => $"{f.Title} by {f.Artist}")
+                                .ToList();
+
+                            // Uses updated Spotify-backed recommendation engine
+                            var recommendations = await _aiService.GenerateMusicRecommendations(trackDescriptions, 1);
+
+                            if (recommendations.Any())
+                            {
+                                ViewBag.TopRecommendation = recommendations.First();
+                            }
                         }
-                    }
-                    catch (Exception ex)
-                    {
-                        _logger.LogError(ex, "Error getting recommendation");
+                        catch (Exception ex)
+                        {
+                            _logger.LogError(ex, "Error getting top recommendation for home page.");
+                        }
                     }
                 }
             }
+
             return View();
         }
 

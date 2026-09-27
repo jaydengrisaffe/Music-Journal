@@ -53,8 +53,18 @@ namespace MusicJournal.Controllers
                     searchLocation = user.Location;
                 }
                 var results = await _spotify.GetSearchedFavorites(searchQuery, searchPages, SEARCH_LIMIT, searchLocation);
-                viewModel.SearchResults = results.Results;
-                viewModel.HasMoreResults = results.HasMoreResults;
+                viewModel.SearchResults = results.Select(r => new TrackResult
+                {
+                    Title = r.Title,
+                    Artist = r.Artist,
+                    Album = r.Album,
+                    SpotifyUrl = r.SpotifyUrl,
+                    AlbumArtUrl = r.AlbumArtUrl,
+                    SpotifyId = r.SpotifyId
+                }).ToList();
+
+                // Determine if there are more results based on returned item count
+                viewModel.HasMoreResults = results.Count >= SEARCH_LIMIT;
             }
             return View(viewModel);
         }
