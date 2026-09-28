@@ -62,7 +62,7 @@ namespace MusicJournal.Services
         {
             var token = await GetAccessToken();
             
-            var url = $"https://api.spotify.com/v1/search?q=year:{year}&type=track&limit=50&market=US";
+            var url = $"https://api.spotify.com/v1/search?q=year:{year}&type=track&limit=10&market=US";
 
             var request = new HttpRequestMessage(HttpMethod.Get, url);
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
@@ -105,7 +105,7 @@ namespace MusicJournal.Services
         {
             var token = await GetAccessToken();
             var offset = (page - 1) * limit;
-            var url = $"https://api.spotify.com/v1/search?q={Uri.EscapeDataString(query)}&type=track&limit={limit}&offset={offset}&market=US";
+            var url = $"https://api.spotify.com/v1/search?q={Uri.EscapeDataString(query)}&type=track&limit=10&offset={offset}&market=US";
 
             var request = new HttpRequestMessage(HttpMethod.Get, url);
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
@@ -181,7 +181,7 @@ namespace MusicJournal.Services
             foreach (var seed in seedTracks)
             {
                 var query = Uri.EscapeDataString(seed);
-                var url = $"https://api.spotify.com/v1/search?q={query}&type=track&limit={count}&market=US";
+                var url = $"https://api.spotify.com/v1/search?q={query}&type=track&limit=5&market=US";
 
                 var request = new HttpRequestMessage(HttpMethod.Get, url);
                 request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);

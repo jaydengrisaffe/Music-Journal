@@ -24,7 +24,7 @@ namespace MusicJournal.Controllers
         public async Task<IActionResult> Index()
         {
             // Fetch trending from Spotify directly
-            var year = DateTime.UtcNow.Year;
+            var year = 2025;
             var tracks = await _spotify.GetTop50Playlist(year);
 
             List<string> favoritedTracks = new List<string>();
