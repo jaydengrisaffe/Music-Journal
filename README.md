@@ -12,6 +12,9 @@ Music Journal is a web application that allows users to keep a personal journal 
 - User registration, login, and logout 
 - Secure, persistent user accounts using ASP.NET Core Identity and SQLite
 - Email verification is not currently required
+- Browse Spotify trending songs by year 
+- Search and save songs to personal music journal
+- Generate song recommendations based on favorited songs
 
 ## Requirements
 Music Journal requires the .NET 9 SDK.
