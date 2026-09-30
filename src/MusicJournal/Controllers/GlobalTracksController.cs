@@ -24,7 +24,7 @@ namespace MusicJournal.Controllers
         public async Task<IActionResult> Index()
         {
             // Fetch trending from Spotify directly
-            var year = 2025;
+            var year = DateTime.Now.Year;
             var tracks = await _spotify.GetTop50Playlist(year);
 
             List<string> favoritedTracks = new List<string>();
@@ -63,7 +63,7 @@ namespace MusicJournal.Controllers
             return View(globalTrack);
         }
 
-        // GET: GlobalTracks/GetByYear?year=2025
+        // GET: GlobalTracks/GetByYear?year={year}
         [AllowAnonymous]
         public async Task<IActionResult> GetByYear(int year)
         {
