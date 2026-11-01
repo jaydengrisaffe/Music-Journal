@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.8118000000000001" branch-rate="0.7674" version="1.9" timestamp="1793556469" lines-covered="371" lines-valid="457" branches-covered="66" branches-valid="86">
+<coverage line-rate="0.8183" branch-rate="0.7674" version="1.9" timestamp="1793556532" lines-covered="374" lines-valid="457" branches-covered="66" branches-valid="86">
   <sources>
     <source>/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/</source>
   </sources>
   <packages>
-    <package name="MusicJournal" line-rate="0.8118000000000001" branch-rate="0.7674" complexity="155">
+    <package name="MusicJournal" line-rate="0.8183" branch-rate="0.7674" complexity="155">
       <classes>
         <class name="Program" filename="Program.cs" line-rate="0" branch-rate="0" complexity="4">
           <methods>
@@ -90,40 +90,40 @@
             <line number="68" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="MusicJournal.Models.ApplicationUser" filename="Models/ApplicationUser.cs" line-rate="0.4" branch-rate="1" complexity="5">
+        <class name="MusicJournal.Models.ApplicationUser" filename="Models/ApplicationUser.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
-            <method name="get_DisplayName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_DisplayName" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="0" branch="False" />
+                <line number="7" hits="3" branch="False" />
               </lines>
             </method>
-            <method name="get_Bio" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_Bio" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="0" branch="False" />
+                <line number="8" hits="3" branch="False" />
               </lines>
             </method>
             <method name="get_Location" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="3" branch="False" />
+                <line number="9" hits="6" branch="False" />
               </lines>
             </method>
-            <method name="get_ProfilePic" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_ProfilePic" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="0" branch="False" />
+                <line number="10" hits="3" branch="False" />
               </lines>
             </method>
             <method name="get_FavoriteTracks" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="25" branch="False" />
+                <line number="11" hits="32" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="7" hits="0" branch="False" />
-            <line number="8" hits="0" branch="False" />
-            <line number="9" hits="3" branch="False" />
-            <line number="10" hits="0" branch="False" />
-            <line number="11" hits="25" branch="False" />
+            <line number="7" hits="3" branch="False" />
+            <line number="8" hits="3" branch="False" />
+            <line number="9" hits="6" branch="False" />
+            <line number="10" hits="3" branch="False" />
+            <line number="11" hits="32" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Models.ErrorViewModel" filename="Models/ErrorViewModel.cs" line-rate="1" branch-rate="1" complexity="2">
@@ -148,7 +148,7 @@
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="8" hits="16" branch="False" />
+                <line number="8" hits="17" branch="False" />
               </lines>
             </method>
             <method name="get_UserId" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -158,12 +158,12 @@
             </method>
             <method name="get_Title" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="57" branch="False" />
+                <line number="15" hits="58" branch="False" />
               </lines>
             </method>
             <method name="get_Artist" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="56" branch="False" />
+                <line number="19" hits="57" branch="False" />
               </lines>
             </method>
             <method name="get_Album" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -198,7 +198,7 @@
             </method>
             <method name="get_CreatedAt" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="38" hits="40" branch="False" />
+                <line number="38" hits="41" branch="False" />
               </lines>
             </method>
             <method name="get_User" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -208,17 +208,17 @@
             </method>
           </methods>
           <lines>
-            <line number="8" hits="16" branch="False" />
+            <line number="8" hits="17" branch="False" />
             <line number="11" hits="42" branch="False" />
-            <line number="15" hits="57" branch="False" />
-            <line number="19" hits="56" branch="False" />
+            <line number="15" hits="58" branch="False" />
+            <line number="19" hits="57" branch="False" />
             <line number="22" hits="22" branch="False" />
             <line number="25" hits="21" branch="False" />
             <line number="28" hits="30" branch="False" />
             <line number="31" hits="11" branch="False" />
             <line number="33" hits="2" branch="False" />
             <line number="36" hits="21" branch="False" />
-            <line number="38" hits="40" branch="False" />
+            <line number="38" hits="41" branch="False" />
             <line number="40" hits="5" branch="False" />
           </lines>
         </class>
