@@ -1,0 +1,7059 @@
+{
+  "MusicJournal.dll": {
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "8": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "17": 0,
+            "20": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "68": 0
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 31,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 185,
+              "EndOffset": 187,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 185,
+              "EndOffset": 191,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/FavoriteTracks/Create.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_FavoriteTracks_Create/<<ExecuteAsync>b__16_4>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_FavoriteTracks_Create/<<ExecuteAsync>b__16_4>d::MoveNext()": {
+          "Lines": {
+            "122": 0
+          },
+          "Branches": []
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_FavoriteTracks_Create/<ExecuteAsync>d__16": {
+        "System.Void AspNetCoreGeneratedDocument.Views_FavoriteTracks_Create/<ExecuteAsync>d__16::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "29": 0,
+            "30": 0,
+            "38": 0,
+            "39": 0,
+            "42": 0,
+            "43": 0,
+            "46": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "72": 0,
+            "76": 0,
+            "77": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "96": 0,
+            "98": 0,
+            "102": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "112": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 585,
+              "EndOffset": 587,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 585,
+              "EndOffset": 698,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 786,
+              "EndOffset": 788,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 786,
+              "EndOffset": 811,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 816,
+              "EndOffset": 821,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 2028,
+              "EndOffset": 940,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 1036,
+              "EndOffset": 1041,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 1036,
+              "EndOffset": 1173,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 1308,
+              "EndOffset": 1310,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 1308,
+              "EndOffset": 1374,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 1824,
+              "EndOffset": 1826,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 1824,
+              "EndOffset": 1937,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 2028,
+              "EndOffset": 2033,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 2226,
+              "EndOffset": 2228,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 2226,
+              "EndOffset": 2235,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 2309,
+              "EndOffset": 2314,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 2743,
+              "EndOffset": 2745,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 2743,
+              "EndOffset": 2856,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 2309,
+              "EndOffset": 2929,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 2966,
+              "EndOffset": 2971,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 3400,
+              "EndOffset": 3402,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 3400,
+              "EndOffset": 3513,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 2966,
+              "EndOffset": 3588,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 816,
+              "EndOffset": 3627,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 3655,
+              "EndOffset": 3657,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 3655,
+              "EndOffset": 3721,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 112,
+              "Offset": 4067,
+              "EndOffset": 4069,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 112,
+              "Offset": 4067,
+              "EndOffset": 4181,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/FavoriteTracks/Delete.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_FavoriteTracks_Delete/<ExecuteAsync>d__16": {
+        "System.Void AspNetCoreGeneratedDocument.Views_FavoriteTracks_Delete/<ExecuteAsync>d__16::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "30": 0,
+            "31": 0,
+            "35": 0
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 349,
+              "EndOffset": 354,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 349,
+              "EndOffset": 486,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 934,
+              "EndOffset": 936,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 934,
+              "EndOffset": 1048,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/FavoriteTracks/Index.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_FavoriteTracks_Index/<ExecuteAsync>d__11": {
+        "System.Void AspNetCoreGeneratedDocument.Views_FavoriteTracks_Index/<ExecuteAsync>d__11::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "12": 0,
+            "13": 0,
+            "17": 0,
+            "19": 0,
+            "32": 0,
+            "33": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "53": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 432,
+              "EndOffset": 434,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 432,
+              "EndOffset": 545,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 12,
+              "Offset": 640,
+              "EndOffset": 642,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 12,
+              "Offset": 640,
+              "EndOffset": 666,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 2017,
+              "EndOffset": 735,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 793,
+              "EndOffset": 795,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 793,
+              "EndOffset": 922,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 1131,
+              "EndOffset": 1133,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 1131,
+              "EndOffset": 1260,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 1459,
+              "EndOffset": 1461,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 1459,
+              "EndOffset": 1494,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 1813,
+              "EndOffset": 1815,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 1813,
+              "EndOffset": 1926,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 2017,
+              "EndOffset": 2022,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/GlobalTracks/Index.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_GlobalTracks_Index/<ExecuteAsync>d__7": {
+        "System.Void AspNetCoreGeneratedDocument.Views_GlobalTracks_Index/<ExecuteAsync>d__7::MoveNext()": {
+          "Lines": {
+            "6": 0,
+            "7": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "27": 0,
+            "29": 0,
+            "32": 0,
+            "33": 0
+          },
+          "Branches": [
+            {
+              "Line": 7,
+              "Offset": 69,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 69,
+              "EndOffset": 120,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 157,
+              "EndOffset": 159,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 157,
+              "EndOffset": 165,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 1731,
+              "EndOffset": 339,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 411,
+              "EndOffset": 416,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 915,
+              "EndOffset": 917,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 915,
+              "EndOffset": 1029,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 411,
+              "EndOffset": 1107,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 1525,
+              "EndOffset": 1527,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 1525,
+              "EndOffset": 1639,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 1731,
+              "EndOffset": 1736,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/GlobalTracks/_TracksPartial.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_GlobalTracks__TracksPartial/<ExecuteAsync>d__10": {
+        "System.Void AspNetCoreGeneratedDocument.Views_GlobalTracks__TracksPartial/<ExecuteAsync>d__10::MoveNext()": {
+          "Lines": {
+            "6": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "38": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "53": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 6,
+              "Offset": 42,
+              "EndOffset": 46,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 42,
+              "EndOffset": 93,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 130,
+              "EndOffset": 132,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 130,
+              "EndOffset": 138,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 1773,
+              "EndOffset": 210,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 372,
+              "EndOffset": 374,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 372,
+              "EndOffset": 501,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 659,
+              "EndOffset": 661,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 659,
+              "EndOffset": 788,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 834,
+              "EndOffset": 839,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 850,
+              "EndOffset": 852,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 850,
+              "EndOffset": 876,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 834,
+              "EndOffset": 1141,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 1543,
+              "EndOffset": 1545,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 1543,
+              "EndOffset": 1657,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 1773,
+              "EndOffset": 1778,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/Home/Index.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Home_Index/<ExecuteAsync>d__22": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Home_Index/<ExecuteAsync>d__22::MoveNext()": {
+          "Lines": {
+            "6": 0,
+            "7": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "33": 0,
+            "40": 0,
+            "41": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "72": 0,
+            "97": 0,
+            "98": 0,
+            "102": 0,
+            "104": 0,
+            "108": 0,
+            "120": 0,
+            "121": 0,
+            "125": 0,
+            "127": 0,
+            "131": 0
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 427,
+              "EndOffset": 432,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 585,
+              "EndOffset": 587,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 585,
+              "EndOffset": 591,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 601,
+              "EndOffset": 603,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 620,
+              "EndOffset": 622,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 620,
+              "EndOffset": 626,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 601,
+              "EndOffset": 633,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 427,
+              "EndOffset": 721,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 1122,
+              "EndOffset": 1124,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 1122,
+              "EndOffset": 1235,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 1690,
+              "EndOffset": 1692,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 1690,
+              "EndOffset": 1803,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 1898,
+              "EndOffset": 1902,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 1898,
+              "EndOffset": 1946,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 1992,
+              "EndOffset": 1997,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 2002,
+              "EndOffset": 2006,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 2002,
+              "EndOffset": 2059,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 2081,
+              "EndOffset": 2085,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 2081,
+              "EndOffset": 2139,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 2159,
+              "EndOffset": 2163,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 2159,
+              "EndOffset": 2210,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 1992,
+              "EndOffset": 2254,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 2270,
+              "EndOffset": 2275,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 2298,
+              "EndOffset": 2302,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 2298,
+              "EndOffset": 2364,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 2390,
+              "EndOffset": 2394,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 2390,
+              "EndOffset": 2441,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 2878,
+              "EndOffset": 2880,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 2878,
+              "EndOffset": 2991,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 2270,
+              "EndOffset": 3069,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 3100,
+              "EndOffset": 3105,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 3506,
+              "EndOffset": 3508,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 3506,
+              "EndOffset": 3620,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 3100,
+              "EndOffset": 3693,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 4094,
+              "EndOffset": 4096,
+              "Path": 0,
+              "Ordinal": 34,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 4094,
+              "EndOffset": 4208,
+              "Path": 1,
+              "Ordinal": 35,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 4311,
+              "EndOffset": 4316,
+              "Path": 0,
+              "Ordinal": 36,
+              "Hits": 0
+            },
+            {
+              "Line": 98,
+              "Offset": 4718,
+              "EndOffset": 4720,
+              "Path": 0,
+              "Ordinal": 38,
+              "Hits": 0
+            },
+            {
+              "Line": 98,
+              "Offset": 4718,
+              "EndOffset": 4832,
+              "Path": 1,
+              "Ordinal": 39,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 4311,
+              "EndOffset": 4910,
+              "Path": 1,
+              "Ordinal": 37,
+              "Hits": 0
+            },
+            {
+              "Line": 104,
+              "Offset": 5312,
+              "EndOffset": 5314,
+              "Path": 0,
+              "Ordinal": 40,
+              "Hits": 0
+            },
+            {
+              "Line": 104,
+              "Offset": 5312,
+              "EndOffset": 5426,
+              "Path": 1,
+              "Ordinal": 41,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 5547,
+              "EndOffset": 5552,
+              "Path": 0,
+              "Ordinal": 42,
+              "Hits": 0
+            },
+            {
+              "Line": 121,
+              "Offset": 5954,
+              "EndOffset": 5956,
+              "Path": 0,
+              "Ordinal": 44,
+              "Hits": 0
+            },
+            {
+              "Line": 121,
+              "Offset": 5954,
+              "EndOffset": 6068,
+              "Path": 1,
+              "Ordinal": 45,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 5547,
+              "EndOffset": 6146,
+              "Path": 1,
+              "Ordinal": 43,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 6548,
+              "EndOffset": 6550,
+              "Path": 0,
+              "Ordinal": 46,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 6548,
+              "EndOffset": 6662,
+              "Path": 1,
+              "Ordinal": 47,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/Home/Privacy.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Home_Privacy/<ExecuteAsync>d__0": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Home_Privacy/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/Recommendations/Index.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Recommendations_Index/<<ExecuteAsync>b__22_3>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Recommendations_Index/<<ExecuteAsync>b__22_3>d::MoveNext()": {
+          "Lines": {
+            "101": 0,
+            "102": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "120": 0
+          },
+          "Branches": [
+            {
+              "Line": 101,
+              "Offset": 32,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 32,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 787,
+              "EndOffset": 134,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 111,
+              "Offset": 502,
+              "EndOffset": 504,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 111,
+              "Offset": 502,
+              "EndOffset": 631,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 101,
+              "Offset": 787,
+              "EndOffset": 792,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Recommendations_Index/<ExecuteAsync>d__22": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Recommendations_Index/<ExecuteAsync>d__22::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "22": 0,
+            "23": 0,
+            "28": 0,
+            "30": 0,
+            "42": 0,
+            "43": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "73": 0,
+            "76": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 540,
+              "EndOffset": 542,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 540,
+              "EndOffset": 653,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1108,
+              "EndOffset": 1110,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1108,
+              "EndOffset": 1221,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 1316,
+              "EndOffset": 1321,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 1344,
+              "EndOffset": 1348,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 1344,
+              "EndOffset": 1410,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 1436,
+              "EndOffset": 1440,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 1436,
+              "EndOffset": 1487,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 1924,
+              "EndOffset": 1926,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 1924,
+              "EndOffset": 2037,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 1316,
+              "EndOffset": 2115,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 3410,
+              "EndOffset": 2184,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 2280,
+              "EndOffset": 2285,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 2280,
+              "EndOffset": 2417,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 2597,
+              "EndOffset": 2602,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 2597,
+              "EndOffset": 2734,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 3206,
+              "EndOffset": 3208,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 3206,
+              "EndOffset": 3319,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 3410,
+              "EndOffset": 3415,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 3863,
+              "EndOffset": 3865,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 3863,
+              "EndOffset": 3977,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/Shared/Error.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Shared_Error/<ExecuteAsync>d__0": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Shared_Error/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "3": 0,
+            "9": 0,
+            "10": 0,
+            "14": 0
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 70,
+              "EndOffset": 72,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 70,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/Shared/_LoginPartial.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Shared__LoginPartial/<ExecuteAsync>d__14": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Shared__LoginPartial/<ExecuteAsync>d__14::MoveNext()": {
+          "Lines": {
+            "6": 0,
+            "7": 0,
+            "23": 0,
+            "25": 0,
+            "41": 0
+          },
+          "Branches": [
+            {
+              "Line": 6,
+              "Offset": 116,
+              "EndOffset": 121,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 162,
+              "EndOffset": 164,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 162,
+              "EndOffset": 168,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 497,
+              "EndOffset": 499,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 497,
+              "EndOffset": 532,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 837,
+              "EndOffset": 839,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 837,
+              "EndOffset": 951,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 116,
+              "EndOffset": 1029,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 1431,
+              "EndOffset": 1433,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 1431,
+              "EndOffset": 1545,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 2018,
+              "EndOffset": 2020,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 2018,
+              "EndOffset": 2132,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/_ViewStart.cshtml": {
+      "AspNetCoreGeneratedDocument.Views__ViewStart/<ExecuteAsync>d__0": {
+        "System.Void AspNetCoreGeneratedDocument.Views__ViewStart/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/Recommendations/Index.cshtml.cs": {
+      "MusicJournal.Views.Recommendations.IndexModel": {
+        "System.Void MusicJournal.Views.Recommendations.IndexModel::OnGet()": {
+          "Lines": {
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/GlobalTracks/Index.cshtml.cs": {
+      "MusicJournal.Views.GlobalTracks.IndexModel": {
+        "System.Void MusicJournal.Views.GlobalTracks.IndexModel::OnGet()": {
+          "Lines": {
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/GlobalTracks/_TracksPartial.cshtml.cs": {
+      "MusicJournal.Views.GlobalTracks._TracksPartialModel": {
+        "System.Void MusicJournal.Views.GlobalTracks._TracksPartialModel::OnGet()": {
+          "Lines": {
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/FavoriteTracks/Create.cshtml.cs": {
+      "MusicJournal.Views.FavoriteTracks.CreateModel": {
+        "System.Void MusicJournal.Views.FavoriteTracks.CreateModel::OnGet()": {
+          "Lines": {
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/FavoriteTracks/Delete.cshtml.cs": {
+      "MusicJournal.Views.FavoriteTracks.DeleteModel": {
+        "System.Void MusicJournal.Views.FavoriteTracks.DeleteModel::OnGet()": {
+          "Lines": {
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Views/FavoriteTracks/Index.cshtml.cs": {
+      "MusicJournal.Views.FavoriteTracks.IndexModel": {
+        "System.Void MusicJournal.Views.FavoriteTracks.IndexModel::OnGet()": {
+          "Lines": {
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Services/AIService.cs": {
+      "MusicJournal.Services.AIService": {
+        "System.Void MusicJournal.Services.AIService::.ctor(MusicJournal.Services.SpotifyService)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Services.AIService/<>c": {
+        "System.String MusicJournal.Services.AIService/<>c::<GenerateMusicRecommendations>b__2_0(MusicJournal.Models.RecTrack)": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Services.AIService/<GenerateMusicRecommendations>d__2": {
+        "System.Void MusicJournal.Services.AIService/<GenerateMusicRecommendations>d__2::MoveNext()": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Services.AIService/<GenerateRecTracks>d__3": {
+        "System.Void MusicJournal.Services.AIService/<GenerateRecTracks>d__3::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Services/SpotifyService.cs": {
+      "MusicJournal.Services.SpotifyService": {
+        "System.Void MusicJournal.Services.SpotifyService::.ctor(System.Net.Http.HttpClient,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Services.SpotifyService/<>c": {
+        "System.String MusicJournal.Services.SpotifyService/<>c::<GetSpotifyRecommendations>b__9_1(MusicJournal.Models.RecTrack)": {
+          "Lines": {
+            "212": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Services.SpotifyService/<>c__DisplayClass9_0": {
+        "System.Int32 MusicJournal.Services.SpotifyService/<>c__DisplayClass9_0::<GetSpotifyRecommendations>b__0(System.String)": {
+          "Lines": {
+            "174": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 MusicJournal.Services.SpotifyService/<>c__DisplayClass9_0::<GetSpotifyRecommendations>b__2(MusicJournal.Models.RecTrack)": {
+          "Lines": {
+            "213": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Services.SpotifyService/<GetAccessToken>d__5": {
+        "System.Void MusicJournal.Services.SpotifyService/<GetAccessToken>d__5::MoveNext()": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 59,
+              "EndOffset": 61,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 59,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 87,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 87,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 172,
+              "EndOffset": 174,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 172,
+              "EndOffset": 187,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 190,
+              "EndOffset": 192,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 190,
+              "EndOffset": 204,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 504,
+              "EndOffset": 509,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 504,
+              "EndOffset": 726,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 888,
+              "EndOffset": 890,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 888,
+              "EndOffset": 894,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 900,
+              "EndOffset": 902,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 900,
+              "EndOffset": 914,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 937,
+              "EndOffset": 939,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 937,
+              "EndOffset": 947,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MusicJournal.Services.SpotifyService/<GetSearchedFavorites>d__7": {
+        "System.Void MusicJournal.Services.SpotifyService/<GetSearchedFavorites>d__7::MoveNext()": {
+          "Lines": {
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "110": 0,
+            "111": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "136": 0,
+            "137": 0
+          },
+          "Branches": [
+            {
+              "Line": 114,
+              "Offset": 493,
+              "EndOffset": 495,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 493,
+              "EndOffset": 506,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 117,
+              "Offset": 662,
+              "EndOffset": 664,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 117,
+              "Offset": 662,
+              "EndOffset": 668,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 707,
+              "EndOffset": 712,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 122,
+              "Offset": 1175,
+              "EndOffset": 736,
+              "Path": 1,
+              "Ordinal": 45,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 783,
+              "EndOffset": 785,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 783,
+              "EndOffset": 789,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 795,
+              "EndOffset": 797,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 795,
+              "EndOffset": 803,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 827,
+              "EndOffset": 829,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 827,
+              "EndOffset": 833,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 845,
+              "EndOffset": 847,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 845,
+              "EndOffset": 851,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 862,
+              "EndOffset": 864,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 862,
+              "EndOffset": 868,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 874,
+              "EndOffset": 876,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 874,
+              "EndOffset": 882,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 906,
+              "EndOffset": 908,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 906,
+              "EndOffset": 912,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 923,
+              "EndOffset": 925,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 923,
+              "EndOffset": 929,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 935,
+              "EndOffset": 937,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 935,
+              "EndOffset": 943,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 967,
+              "EndOffset": 969,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 967,
+              "EndOffset": 973,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 984,
+              "EndOffset": 986,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 984,
+              "EndOffset": 990,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 996,
+              "EndOffset": 998,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 996,
+              "EndOffset": 1004,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1028,
+              "EndOffset": 1030,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1028,
+              "EndOffset": 1034,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1045,
+              "EndOffset": 1047,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1045,
+              "EndOffset": 1051,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1063,
+              "EndOffset": 1065,
+              "Path": 0,
+              "Ordinal": 34,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1063,
+              "EndOffset": 1069,
+              "Path": 1,
+              "Ordinal": 35,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1080,
+              "EndOffset": 1082,
+              "Path": 0,
+              "Ordinal": 36,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1080,
+              "EndOffset": 1086,
+              "Path": 1,
+              "Ordinal": 37,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1092,
+              "EndOffset": 1094,
+              "Path": 0,
+              "Ordinal": 38,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1092,
+              "EndOffset": 1100,
+              "Path": 1,
+              "Ordinal": 39,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1124,
+              "EndOffset": 1126,
+              "Path": 0,
+              "Ordinal": 40,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1124,
+              "EndOffset": 1130,
+              "Path": 1,
+              "Ordinal": 41,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1136,
+              "EndOffset": 1138,
+              "Path": 0,
+              "Ordinal": 42,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 1136,
+              "EndOffset": 1144,
+              "Path": 1,
+              "Ordinal": 43,
+              "Hits": 0
+            },
+            {
+              "Line": 122,
+              "Offset": 1175,
+              "EndOffset": 1180,
+              "Path": 0,
+              "Ordinal": 44,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 707,
+              "EndOffset": 1215,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MusicJournal.Services.SpotifyService/<GetSpotifyRecommendations>d__9": {
+        "System.Void MusicJournal.Services.SpotifyService/<GetSpotifyRecommendations>d__9::MoveNext()": {
+          "Lines": {
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "173": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "186": 0,
+            "187": 0,
+            "189": 0,
+            "190": 0,
+            "192": 0,
+            "193": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0
+          },
+          "Branches": [
+            {
+              "Line": 169,
+              "Offset": 16,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 176,
+              "Offset": 254,
+              "EndOffset": 256,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 176,
+              "Offset": 254,
+              "EndOffset": 275,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 169,
+              "Offset": 16,
+              "EndOffset": 293,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 181,
+              "Offset": 1307,
+              "EndOffset": 321,
+              "Path": 1,
+              "Ordinal": 39,
+              "Hits": 0
+            },
+            {
+              "Line": 190,
+              "Offset": 595,
+              "EndOffset": 602,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 193,
+              "Offset": 758,
+              "EndOffset": 760,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 193,
+              "Offset": 758,
+              "EndOffset": 764,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 195,
+              "Offset": 792,
+              "EndOffset": 797,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 197,
+              "Offset": 1206,
+              "EndOffset": 821,
+              "Path": 1,
+              "Ordinal": 37,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 868,
+              "EndOffset": 870,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 868,
+              "EndOffset": 874,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 903,
+              "EndOffset": 905,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 903,
+              "EndOffset": 909,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 921,
+              "EndOffset": 923,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 921,
+              "EndOffset": 927,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 938,
+              "EndOffset": 940,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 938,
+              "EndOffset": 944,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 973,
+              "EndOffset": 975,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 973,
+              "EndOffset": 979,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 990,
+              "EndOffset": 992,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 990,
+              "EndOffset": 996,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1025,
+              "EndOffset": 1027,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1025,
+              "EndOffset": 1031,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1042,
+              "EndOffset": 1044,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1042,
+              "EndOffset": 1048,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1077,
+              "EndOffset": 1079,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1077,
+              "EndOffset": 1083,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1094,
+              "EndOffset": 1096,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1094,
+              "EndOffset": 1100,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1112,
+              "EndOffset": 1114,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1112,
+              "EndOffset": 1118,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1129,
+              "EndOffset": 1131,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1129,
+              "EndOffset": 1135,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1164,
+              "EndOffset": 1166,
+              "Path": 0,
+              "Ordinal": 34,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 1164,
+              "EndOffset": 1170,
+              "Path": 1,
+              "Ordinal": 35,
+              "Hits": 0
+            },
+            {
+              "Line": 197,
+              "Offset": 1206,
+              "EndOffset": 1211,
+              "Path": 0,
+              "Ordinal": 36,
+              "Hits": 0
+            },
+            {
+              "Line": 195,
+              "Offset": 792,
+              "EndOffset": 1246,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 190,
+              "Offset": 595,
+              "EndOffset": 1296,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 181,
+              "Offset": 1307,
+              "EndOffset": 1312,
+              "Path": 0,
+              "Ordinal": 38,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MusicJournal.Services.SpotifyService/<GetTop50Playlist>d__6": {
+        "System.Void MusicJournal.Services.SpotifyService/<GetTop50Playlist>d__6::MoveNext()": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0,
+            "102": 0
+          },
+          "Branches": [
+            {
+              "Line": 72,
+              "Offset": 449,
+              "EndOffset": 454,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 449,
+              "EndOffset": 670,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 826,
+              "EndOffset": 828,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 826,
+              "EndOffset": 832,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 871,
+              "EndOffset": 876,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 86,
+              "Offset": 1342,
+              "EndOffset": 907,
+              "Path": 1,
+              "Ordinal": 37,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 954,
+              "EndOffset": 956,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 954,
+              "EndOffset": 960,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 966,
+              "EndOffset": 968,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 966,
+              "EndOffset": 974,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 998,
+              "EndOffset": 1000,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 998,
+              "EndOffset": 1004,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1016,
+              "EndOffset": 1018,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1016,
+              "EndOffset": 1022,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1033,
+              "EndOffset": 1035,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1033,
+              "EndOffset": 1039,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1045,
+              "EndOffset": 1047,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1045,
+              "EndOffset": 1053,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1077,
+              "EndOffset": 1079,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1077,
+              "EndOffset": 1083,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1094,
+              "EndOffset": 1096,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1094,
+              "EndOffset": 1100,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1161,
+              "EndOffset": 1163,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1161,
+              "EndOffset": 1167,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1196,
+              "EndOffset": 1198,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1196,
+              "EndOffset": 1202,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1213,
+              "EndOffset": 1215,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1213,
+              "EndOffset": 1219,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1248,
+              "EndOffset": 1250,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1248,
+              "EndOffset": 1254,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1265,
+              "EndOffset": 1267,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1265,
+              "EndOffset": 1271,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1283,
+              "EndOffset": 1285,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1283,
+              "EndOffset": 1289,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1300,
+              "EndOffset": 1302,
+              "Path": 0,
+              "Ordinal": 34,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 1300,
+              "EndOffset": 1306,
+              "Path": 1,
+              "Ordinal": 35,
+              "Hits": 0
+            },
+            {
+              "Line": 86,
+              "Offset": 1342,
+              "EndOffset": 1347,
+              "Path": 0,
+              "Ordinal": 36,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 871,
+              "EndOffset": 1382,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MusicJournal.Services.SpotifyService/<GetTrackInfo>d__8": {
+        "System.Void MusicJournal.Services.SpotifyService/<GetTrackInfo>d__8::MoveNext()": {
+          "Lines": {
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "149": 0,
+            "150": 0,
+            "152": 0,
+            "153": 0,
+            "155": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0
+          },
+          "Branches": [
+            {
+              "Line": 150,
+              "Offset": 442,
+              "EndOffset": 444,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 150,
+              "Offset": 442,
+              "EndOffset": 451,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 153,
+              "Offset": 607,
+              "EndOffset": 609,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 153,
+              "Offset": 607,
+              "EndOffset": 613,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 153,
+              "Offset": 624,
+              "EndOffset": 626,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 153,
+              "Offset": 624,
+              "EndOffset": 630,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 155,
+              "Offset": 653,
+              "EndOffset": 655,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 155,
+              "Offset": 653,
+              "EndOffset": 662,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 685,
+              "EndOffset": 687,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 685,
+              "EndOffset": 691,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 697,
+              "EndOffset": 699,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 697,
+              "EndOffset": 706,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 730,
+              "EndOffset": 732,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 730,
+              "EndOffset": 736,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 748,
+              "EndOffset": 750,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 748,
+              "EndOffset": 754,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 765,
+              "EndOffset": 767,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 765,
+              "EndOffset": 771,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 777,
+              "EndOffset": 779,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 777,
+              "EndOffset": 786,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 810,
+              "EndOffset": 812,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 810,
+              "EndOffset": 816,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 827,
+              "EndOffset": 829,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 827,
+              "EndOffset": 833,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 862,
+              "EndOffset": 864,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 862,
+              "EndOffset": 868,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 879,
+              "EndOffset": 881,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 879,
+              "EndOffset": 885,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 914,
+              "EndOffset": 916,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 914,
+              "EndOffset": 920,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 931,
+              "EndOffset": 933,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 931,
+              "EndOffset": 937,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 949,
+              "EndOffset": 951,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 949,
+              "EndOffset": 955,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 966,
+              "EndOffset": 968,
+              "Path": 0,
+              "Ordinal": 34,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 966,
+              "EndOffset": 972,
+              "Path": 1,
+              "Ordinal": 35,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 1001,
+              "EndOffset": 1003,
+              "Path": 0,
+              "Ordinal": 36,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 1001,
+              "EndOffset": 1007,
+              "Path": 1,
+              "Ordinal": 37,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Models/ApplicationUser.cs": {
+      "MusicJournal.Models.ApplicationUser": {
+        "System.String MusicJournal.Models.ApplicationUser::get_DisplayName()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.ApplicationUser::get_Bio()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.ApplicationUser::get_Location()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Byte[] MusicJournal.Models.ApplicationUser::get_ProfilePic()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<MusicJournal.Models.FavoriteTrack> MusicJournal.Models.ApplicationUser::get_FavoriteTracks()": {
+          "Lines": {
+            "11": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Models/ErrorViewModel.cs": {
+      "MusicJournal.Models.ErrorViewModel": {
+        "System.String MusicJournal.Models.ErrorViewModel::get_RequestId()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MusicJournal.Models.ErrorViewModel::get_ShowRequestId()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Models/FavoriteTrack.cs": {
+      "MusicJournal.Models.FavoriteTrack": {
+        "System.Int32 MusicJournal.Models.FavoriteTrack::get_Id()": {
+          "Lines": {
+            "8": 7
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.FavoriteTrack::get_UserId()": {
+          "Lines": {
+            "11": 25
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.FavoriteTrack::get_Title()": {
+          "Lines": {
+            "15": 23
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.FavoriteTrack::get_Artist()": {
+          "Lines": {
+            "19": 23
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.FavoriteTrack::get_Album()": {
+          "Lines": {
+            "22": 5
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.FavoriteTrack::get_SpotifyUrl()": {
+          "Lines": {
+            "25": 5
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.FavoriteTrack::get_SpotifyId()": {
+          "Lines": {
+            "28": 7
+          },
+          "Branches": []
+        },
+        "System.Int32 MusicJournal.Models.FavoriteTrack::get_GlobalTrackId()": {
+          "Lines": {
+            "31": 3
+          },
+          "Branches": []
+        },
+        "MusicJournal.Models.GlobalTrack MusicJournal.Models.FavoriteTrack::get_GlobalTrack()": {
+          "Lines": {
+            "33": 2
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.FavoriteTrack::get_AlbumArtUrl()": {
+          "Lines": {
+            "36": 5
+          },
+          "Branches": []
+        },
+        "System.DateTime MusicJournal.Models.FavoriteTrack::get_CreatedAt()": {
+          "Lines": {
+            "38": 17
+          },
+          "Branches": []
+        },
+        "MusicJournal.Models.ApplicationUser MusicJournal.Models.FavoriteTrack::get_User()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Models/GlobalTrack.cs": {
+      "MusicJournal.Models.GlobalTrack": {
+        "System.Int32 MusicJournal.Models.GlobalTrack::get_Id()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.GlobalTrack::get_Title()": {
+          "Lines": {
+            "11": 1
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.GlobalTrack::get_Artist()": {
+          "Lines": {
+            "15": 1
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.GlobalTrack::get_Album()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> MusicJournal.Models.GlobalTrack::get_Rank()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.GlobalTrack::get_SpotifyUrl()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.GlobalTrack::get_SpotifyId()": {
+          "Lines": {
+            "26": 2
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.GlobalTrack::get_AlbumArtUrl()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime MusicJournal.Models.GlobalTrack::get_CreatedAt()": {
+          "Lines": {
+            "33": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Models/RecTrack.cs": {
+      "MusicJournal.Models.RecTrack": {
+        "System.String MusicJournal.Models.RecTrack::get_Title()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.RecTrack::get_Artist()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.RecTrack::get_Album()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.RecTrack::get_SpotifyUrl()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.RecTrack::get_SpotifyId()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.RecTrack::get_AlbumArtUrl()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime MusicJournal.Models.RecTrack::get_CreatedAt()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Models/ViewModels/CreateFavoriteViewModel.cs": {
+      "MusicJournal.Models.ViewModels.CreateFavoriteViewModel": {
+        "System.String MusicJournal.Models.ViewModels.CreateFavoriteViewModel::get_SearchQuery()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 MusicJournal.Models.ViewModels.CreateFavoriteViewModel::get_SearchPages()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 MusicJournal.Models.ViewModels.CreateFavoriteViewModel::get_SearchSize()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean MusicJournal.Models.ViewModels.CreateFavoriteViewModel::get_HasMoreResults()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<MusicJournal.Models.ViewModels.TrackResult> MusicJournal.Models.ViewModels.CreateFavoriteViewModel::get_SearchResults()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void MusicJournal.Models.ViewModels.CreateFavoriteViewModel::.ctor()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Models.ViewModels.TrackResult": {
+        "System.String MusicJournal.Models.ViewModels.TrackResult::get_Title()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.ViewModels.TrackResult::get_Artist()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.ViewModels.TrackResult::get_Album()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.ViewModels.TrackResult::get_SpotifyUrl()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.ViewModels.TrackResult::get_AlbumArtUrl()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.ViewModels.TrackResult::get_SpotifyId()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Models/ViewModels/ProfileViewModel.cs": {
+      "MusicJournal.Models.ViewModels.ProfileViewModel": {
+        "System.Int32 MusicJournal.Models.ViewModels.ProfileViewModel::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.ViewModels.ProfileViewModel::get_UserId()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Models.ViewModels.ProfileViewModel::get_UserName()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<MusicJournal.Models.FavoriteTrack> MusicJournal.Models.ViewModels.ProfileViewModel::get_FavoriteTracks()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Migrations/20260909213337_InitialCreate.cs": {
+      "MusicJournal.Migrations.InitialCreate": {
+        "System.Void MusicJournal.Migrations.InitialCreate::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0
+          },
+          "Branches": []
+        },
+        "System.Void MusicJournal.Migrations.InitialCreate::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "203": 0,
+            "204": 0,
+            "206": 0,
+            "207": 0,
+            "209": 0,
+            "210": 0,
+            "212": 0,
+            "213": 0,
+            "215": 0,
+            "216": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Migrations/20260909213337_InitialCreate.Designer.cs": {
+      "MusicJournal.Migrations.InitialCreate": {
+        "System.Void MusicJournal.Migrations.InitialCreate::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "270": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Migrations/20260927194639_AddIdentityAndModels.cs": {
+      "MusicJournal.Migrations.AddIdentityAndModels": {
+        "System.Void MusicJournal.Migrations.AddIdentityAndModels::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void MusicJournal.Migrations.AddIdentityAndModels::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Migrations/20260927194639_AddIdentityAndModels.Designer.cs": {
+      "MusicJournal.Migrations.AddIdentityAndModels": {
+        "System.Void MusicJournal.Migrations.AddIdentityAndModels::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "270": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Migrations/20260927200827_UpdateDomainModels.cs": {
+      "MusicJournal.Migrations.UpdateDomainModels": {
+        "System.Void MusicJournal.Migrations.UpdateDomainModels::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0
+          },
+          "Branches": []
+        },
+        "System.Void MusicJournal.Migrations.UpdateDomainModels::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Migrations/20260927200827_UpdateDomainModels.Designer.cs": {
+      "MusicJournal.Migrations.UpdateDomainModels": {
+        "System.Void MusicJournal.Migrations.UpdateDomainModels::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "275": 0,
+            "276": 0,
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "282": 0,
+            "283": 0,
+            "284": 0,
+            "285": 0,
+            "286": 0,
+            "287": 0,
+            "288": 0,
+            "289": 0,
+            "290": 0,
+            "291": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "295": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "299": 0,
+            "300": 0,
+            "301": 0,
+            "302": 0,
+            "303": 0,
+            "304": 0,
+            "305": 0,
+            "306": 0,
+            "307": 0,
+            "308": 0,
+            "309": 0,
+            "310": 0,
+            "311": 0,
+            "312": 0,
+            "313": 0,
+            "314": 0,
+            "315": 0,
+            "316": 0,
+            "318": 0,
+            "319": 0,
+            "320": 0,
+            "321": 0,
+            "322": 0,
+            "323": 0,
+            "324": 0,
+            "325": 0,
+            "326": 0,
+            "327": 0,
+            "328": 0,
+            "329": 0,
+            "330": 0,
+            "331": 0,
+            "332": 0,
+            "333": 0,
+            "334": 0,
+            "335": 0,
+            "337": 0,
+            "338": 0,
+            "339": 0,
+            "340": 0,
+            "341": 0,
+            "342": 0,
+            "343": 0,
+            "344": 0,
+            "346": 0,
+            "347": 0,
+            "348": 0,
+            "349": 0,
+            "350": 0,
+            "351": 0,
+            "352": 0,
+            "353": 0,
+            "355": 0,
+            "356": 0,
+            "357": 0,
+            "358": 0,
+            "359": 0,
+            "360": 0,
+            "361": 0,
+            "362": 0,
+            "364": 0,
+            "365": 0,
+            "366": 0,
+            "367": 0,
+            "368": 0,
+            "369": 0,
+            "370": 0,
+            "371": 0,
+            "372": 0,
+            "373": 0,
+            "374": 0,
+            "375": 0,
+            "376": 0,
+            "377": 0,
+            "379": 0,
+            "380": 0,
+            "381": 0,
+            "382": 0,
+            "383": 0,
+            "384": 0,
+            "385": 0,
+            "386": 0,
+            "388": 0,
+            "389": 0,
+            "390": 0,
+            "391": 0,
+            "392": 0,
+            "393": 0,
+            "394": 0,
+            "395": 0,
+            "396": 0,
+            "397": 0,
+            "398": 0,
+            "399": 0,
+            "400": 0,
+            "401": 0,
+            "402": 0,
+            "403": 0,
+            "404": 0,
+            "405": 0,
+            "406": 0,
+            "407": 0,
+            "408": 0,
+            "409": 0,
+            "411": 0,
+            "412": 0,
+            "413": 0,
+            "414": 0,
+            "416": 0,
+            "417": 0,
+            "418": 0,
+            "419": 0,
+            "421": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Migrations/20260927202000_UpdateApplicationUserLocation.cs": {
+      "MusicJournal.Migrations.UpdateApplicationUserLocation": {
+        "System.Void MusicJournal.Migrations.UpdateApplicationUserLocation::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Void MusicJournal.Migrations.UpdateApplicationUserLocation::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Migrations/20260927202000_UpdateApplicationUserLocation.Designer.cs": {
+      "MusicJournal.Migrations.UpdateApplicationUserLocation": {
+        "System.Void MusicJournal.Migrations.UpdateApplicationUserLocation::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "276": 0,
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "282": 0,
+            "283": 0,
+            "284": 0,
+            "285": 0,
+            "287": 0,
+            "288": 0,
+            "289": 0,
+            "290": 0,
+            "291": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "295": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "299": 0,
+            "300": 0,
+            "301": 0,
+            "302": 0,
+            "303": 0,
+            "304": 0,
+            "305": 0,
+            "306": 0,
+            "307": 0,
+            "308": 0,
+            "309": 0,
+            "310": 0,
+            "311": 0,
+            "312": 0,
+            "313": 0,
+            "314": 0,
+            "315": 0,
+            "316": 0,
+            "317": 0,
+            "318": 0,
+            "319": 0,
+            "320": 0,
+            "321": 0,
+            "322": 0,
+            "323": 0,
+            "324": 0,
+            "325": 0,
+            "326": 0,
+            "327": 0,
+            "328": 0,
+            "330": 0,
+            "331": 0,
+            "332": 0,
+            "333": 0,
+            "334": 0,
+            "335": 0,
+            "336": 0,
+            "337": 0,
+            "338": 0,
+            "339": 0,
+            "340": 0,
+            "341": 0,
+            "342": 0,
+            "343": 0,
+            "344": 0,
+            "345": 0,
+            "346": 0,
+            "347": 0,
+            "349": 0,
+            "350": 0,
+            "351": 0,
+            "352": 0,
+            "353": 0,
+            "354": 0,
+            "355": 0,
+            "356": 0,
+            "358": 0,
+            "359": 0,
+            "360": 0,
+            "361": 0,
+            "362": 0,
+            "363": 0,
+            "364": 0,
+            "365": 0,
+            "367": 0,
+            "368": 0,
+            "369": 0,
+            "370": 0,
+            "371": 0,
+            "372": 0,
+            "373": 0,
+            "374": 0,
+            "376": 0,
+            "377": 0,
+            "378": 0,
+            "379": 0,
+            "380": 0,
+            "381": 0,
+            "382": 0,
+            "383": 0,
+            "384": 0,
+            "385": 0,
+            "386": 0,
+            "387": 0,
+            "388": 0,
+            "389": 0,
+            "391": 0,
+            "392": 0,
+            "393": 0,
+            "394": 0,
+            "395": 0,
+            "396": 0,
+            "397": 0,
+            "398": 0,
+            "400": 0,
+            "401": 0,
+            "402": 0,
+            "403": 0,
+            "404": 0,
+            "405": 0,
+            "406": 0,
+            "407": 0,
+            "408": 0,
+            "409": 0,
+            "410": 0,
+            "411": 0,
+            "412": 0,
+            "413": 0,
+            "414": 0,
+            "415": 0,
+            "416": 0,
+            "417": 0,
+            "418": 0,
+            "419": 0,
+            "420": 0,
+            "421": 0,
+            "423": 0,
+            "424": 0,
+            "425": 0,
+            "426": 0,
+            "428": 0,
+            "429": 0,
+            "430": 0,
+            "431": 0,
+            "433": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Migrations/ApplicationDbContextModelSnapshot.cs": {
+      "MusicJournal.Migrations.ApplicationDbContextModelSnapshot": {
+        "System.Void MusicJournal.Migrations.ApplicationDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "16": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "276": 0,
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "282": 0,
+            "284": 0,
+            "285": 0,
+            "286": 0,
+            "287": 0,
+            "288": 0,
+            "289": 0,
+            "290": 0,
+            "291": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "295": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "299": 0,
+            "300": 0,
+            "301": 0,
+            "302": 0,
+            "303": 0,
+            "304": 0,
+            "305": 0,
+            "306": 0,
+            "307": 0,
+            "308": 0,
+            "309": 0,
+            "310": 0,
+            "311": 0,
+            "312": 0,
+            "313": 0,
+            "314": 0,
+            "315": 0,
+            "316": 0,
+            "317": 0,
+            "318": 0,
+            "319": 0,
+            "320": 0,
+            "321": 0,
+            "322": 0,
+            "323": 0,
+            "324": 0,
+            "325": 0,
+            "327": 0,
+            "328": 0,
+            "329": 0,
+            "330": 0,
+            "331": 0,
+            "332": 0,
+            "333": 0,
+            "334": 0,
+            "335": 0,
+            "336": 0,
+            "337": 0,
+            "338": 0,
+            "339": 0,
+            "340": 0,
+            "341": 0,
+            "342": 0,
+            "343": 0,
+            "344": 0,
+            "346": 0,
+            "347": 0,
+            "348": 0,
+            "349": 0,
+            "350": 0,
+            "351": 0,
+            "352": 0,
+            "353": 0,
+            "355": 0,
+            "356": 0,
+            "357": 0,
+            "358": 0,
+            "359": 0,
+            "360": 0,
+            "361": 0,
+            "362": 0,
+            "364": 0,
+            "365": 0,
+            "366": 0,
+            "367": 0,
+            "368": 0,
+            "369": 0,
+            "370": 0,
+            "371": 0,
+            "373": 0,
+            "374": 0,
+            "375": 0,
+            "376": 0,
+            "377": 0,
+            "378": 0,
+            "379": 0,
+            "380": 0,
+            "381": 0,
+            "382": 0,
+            "383": 0,
+            "384": 0,
+            "385": 0,
+            "386": 0,
+            "388": 0,
+            "389": 0,
+            "390": 0,
+            "391": 0,
+            "392": 0,
+            "393": 0,
+            "394": 0,
+            "395": 0,
+            "397": 0,
+            "398": 0,
+            "399": 0,
+            "400": 0,
+            "401": 0,
+            "402": 0,
+            "403": 0,
+            "404": 0,
+            "405": 0,
+            "406": 0,
+            "407": 0,
+            "408": 0,
+            "409": 0,
+            "410": 0,
+            "411": 0,
+            "412": 0,
+            "413": 0,
+            "414": 0,
+            "415": 0,
+            "416": 0,
+            "417": 0,
+            "418": 0,
+            "420": 0,
+            "421": 0,
+            "422": 0,
+            "423": 0,
+            "425": 0,
+            "426": 0,
+            "427": 0,
+            "428": 0,
+            "430": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Data/ApplicationDbContext.cs": {
+      "MusicJournal.Data.ApplicationDbContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<MusicJournal.Models.GlobalTrack> MusicJournal.Data.ApplicationDbContext::get_GlobalTracks()": {
+          "Lines": {
+            "15": 4
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<MusicJournal.Models.FavoriteTrack> MusicJournal.Data.ApplicationDbContext::get_FavoriteTracks()": {
+          "Lines": {
+            "16": 15
+          },
+          "Branches": []
+        },
+        "System.Void MusicJournal.Data.ApplicationDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<MusicJournal.Models.ViewModels.ProfileViewModel> MusicJournal.Data.ApplicationDbContext::get_ProfileViewModel()": {
+          "Lines": {
+            "29": 8
+          },
+          "Branches": []
+        },
+        "System.Void MusicJournal.Data.ApplicationDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<MusicJournal.Data.ApplicationDbContext>)": {
+          "Lines": {
+            "11": 4,
+            "12": 4,
+            "13": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Controllers/FavoriteTracksController.cs": {
+      "MusicJournal.Controllers.FavoriteTracksController": {
+        "System.Void MusicJournal.Controllers.FavoriteTracksController::.ctor(MusicJournal.Data.ApplicationDbContext,Microsoft.AspNetCore.Identity.UserManager`1<MusicJournal.Models.ApplicationUser>,MusicJournal.Services.SpotifyService)": {
+          "Lines": {
+            "17": 4,
+            "18": 4,
+            "19": 4,
+            "20": 4,
+            "21": 4,
+            "22": 4
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Controllers.FavoriteTracksController/<>c": {
+        "MusicJournal.Models.ViewModels.TrackResult MusicJournal.Controllers.FavoriteTracksController/<>c::<Create>b__5_0(MusicJournal.Models.FavoriteTrack)": {
+          "Lines": {
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Microsoft.AspNetCore.Mvc.ModelBinding.ModelError> MusicJournal.Controllers.FavoriteTracksController/<>c::<AddToFavorites>b__6_0(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateEntry)": {
+          "Lines": {
+            "135": 0
+          },
+          "Branches": []
+        },
+        "System.String MusicJournal.Controllers.FavoriteTracksController/<>c::<AddToFavorites>b__6_1(Microsoft.AspNetCore.Mvc.ModelBinding.ModelError)": {
+          "Lines": {
+            "136": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Controllers.FavoriteTracksController/<AddFromTrending>d__9": {
+        "System.Void MusicJournal.Controllers.FavoriteTracksController/<AddFromTrending>d__9::MoveNext()": {
+          "Lines": {
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "208": 0,
+            "209": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "227": 0,
+            "228": 0,
+            "230": 0,
+            "232": 0,
+            "233": 0,
+            "235": 0,
+            "236": 0
+          },
+          "Branches": [
+            {
+              "Line": 188,
+              "Offset": 253,
+              "EndOffset": 255,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 188,
+              "Offset": 253,
+              "EndOffset": 284,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 203,
+              "Offset": 813,
+              "EndOffset": 815,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 203,
+              "Offset": 813,
+              "EndOffset": 844,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 211,
+              "Offset": 1126,
+              "EndOffset": 1131,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 211,
+              "Offset": 1126,
+              "EndOffset": 1441,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MusicJournal.Controllers.FavoriteTracksController/<AddToFavorites>d__6": {
+        "System.Void MusicJournal.Controllers.FavoriteTracksController/<AddToFavorites>d__6::MoveNext()": {
+          "Lines": {
+            "76": 1,
+            "77": 1,
+            "79": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "86": 1,
+            "87": 1,
+            "91": 1,
+            "92": 1,
+            "93": 1,
+            "94": 1,
+            "95": 1,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "103": 0,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "120": 0,
+            "121": 0,
+            "123": 0,
+            "125": 0,
+            "126": 0,
+            "128": 0,
+            "129": 0,
+            "131": 0,
+            "134": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 1
+          },
+          "Branches": [
+            {
+              "Line": 91,
+              "Offset": 808,
+              "EndOffset": 810,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 91,
+              "Offset": 808,
+              "EndOffset": 887,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 98,
+              "Offset": 907,
+              "EndOffset": 912,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 103,
+              "Offset": 1195,
+              "EndOffset": 1200,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 103,
+              "Offset": 1195,
+              "EndOffset": 1510,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 98,
+              "Offset": 907,
+              "EndOffset": 1837,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MusicJournal.Controllers.FavoriteTracksController/<Create>d__5": {
+        "System.Void MusicJournal.Controllers.FavoriteTracksController/<Create>d__5::MoveNext()": {
+          "Lines": {
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 91,
+              "EndOffset": 96,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 268,
+              "EndOffset": 270,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 268,
+              "EndOffset": 289,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 91,
+              "EndOffset": 554,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MusicJournal.Controllers.FavoriteTracksController/<Delete>d__7": {
+        "System.Void MusicJournal.Controllers.FavoriteTracksController/<Delete>d__7::MoveNext()": {
+          "Lines": {
+            "145": 1,
+            "146": 1,
+            "147": 0,
+            "148": 0,
+            "151": 1,
+            "152": 1,
+            "153": 1,
+            "154": 1,
+            "156": 1,
+            "157": 0,
+            "158": 0,
+            "161": 1,
+            "162": 1
+          },
+          "Branches": [
+            {
+              "Line": 146,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 146,
+              "Offset": 78,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 156,
+              "Offset": 654,
+              "EndOffset": 656,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 156,
+              "Offset": 654,
+              "EndOffset": 671,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "MusicJournal.Controllers.FavoriteTracksController/<DeleteConfirmed>d__8": {
+        "System.Void MusicJournal.Controllers.FavoriteTracksController/<DeleteConfirmed>d__8::MoveNext()": {
+          "Lines": {
+            "168": 1,
+            "169": 1,
+            "170": 1,
+            "171": 1,
+            "172": 1,
+            "174": 1,
+            "175": 1,
+            "176": 1,
+            "177": 1,
+            "178": 1,
+            "180": 1,
+            "181": 1
+          },
+          "Branches": [
+            {
+              "Line": 174,
+              "Offset": 607,
+              "EndOffset": 612,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 174,
+              "Offset": 607,
+              "EndOffset": 761,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "MusicJournal.Controllers.FavoriteTracksController/<Index>d__4": {
+        "System.Void MusicJournal.Controllers.FavoriteTracksController/<Index>d__4::MoveNext()": {
+          "Lines": {
+            "26": 1,
+            "27": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "34": 1,
+            "35": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Controllers/GlobalTracksController.cs": {
+      "MusicJournal.Controllers.GlobalTracksController": {
+        "System.Void MusicJournal.Controllers.GlobalTracksController::.ctor(MusicJournal.Data.ApplicationDbContext,MusicJournal.Services.SpotifyService)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Controllers.GlobalTracksController/<Details>d__4": {
+        "System.Void MusicJournal.Controllers.GlobalTracksController/<Details>d__4::MoveNext()": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": [
+            {
+              "Line": 50,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 62,
+              "EndOffset": 85,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 88,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 383,
+              "EndOffset": 385,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 383,
+              "EndOffset": 400,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MusicJournal.Controllers.GlobalTracksController/<GetByYear>d__5": {
+        "System.Void MusicJournal.Controllers.GlobalTracksController/<GetByYear>d__5::MoveNext()": {
+          "Lines": {
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "84": 0,
+            "85": 0
+          },
+          "Branches": [
+            {
+              "Line": 73,
+              "Offset": 198,
+              "EndOffset": 203,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 198,
+              "EndOffset": 660,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 665,
+              "EndOffset": 669,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 665,
+              "EndOffset": 726,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MusicJournal.Controllers.GlobalTracksController/<Index>d__3": {
+        "System.Void MusicJournal.Controllers.GlobalTracksController/<Index>d__3::MoveNext()": {
+          "Lines": {
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 218,
+              "EndOffset": 223,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 218,
+              "EndOffset": 681,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 686,
+              "EndOffset": 690,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 686,
+              "EndOffset": 747,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Controllers/HomeController.cs": {
+      "MusicJournal.Controllers.HomeController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult MusicJournal.Controllers.HomeController::Privacy()": {
+          "Lines": {
+            "76": 0,
+            "77": 0,
+            "78": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult MusicJournal.Controllers.HomeController::Error()": {
+          "Lines": {
+            "82": 0,
+            "83": 0,
+            "84": 0
+          },
+          "Branches": [
+            {
+              "Line": 83,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 14,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 26,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void MusicJournal.Controllers.HomeController::.ctor(Microsoft.Extensions.Logging.ILogger`1<MusicJournal.Controllers.HomeController>,MusicJournal.Data.ApplicationDbContext,Microsoft.AspNetCore.Identity.UserManager`1<MusicJournal.Models.ApplicationUser>,MusicJournal.Services.IAIService,MusicJournal.Services.SpotifyService)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Controllers.HomeController/<>c": {
+        "System.String MusicJournal.Controllers.HomeController/<>c::<Index>b__6_1(MusicJournal.Models.FavoriteTrack)": {
+          "Lines": {
+            "53": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Controllers.HomeController/<Index>d__6": {
+        "System.Void MusicJournal.Controllers.HomeController/<Index>d__6::MoveNext()": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0,
+            "73": 0
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 60,
+              "EndOffset": 62,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 60,
+              "EndOffset": 66,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 73,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 255,
+              "EndOffset": 260,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 556,
+              "EndOffset": 561,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 790,
+              "EndOffset": 792,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 798,
+              "EndOffset": 802,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 798,
+              "EndOffset": 859,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 790,
+              "EndOffset": 903,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 556,
+              "EndOffset": 968,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 255,
+              "EndOffset": 976,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 73,
+              "EndOffset": 984,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/Controllers/RecommendationsController.cs": {
+      "MusicJournal.Controllers.RecommendationsController": {
+        "System.Collections.Generic.List`1<MusicJournal.Models.RecTrack> MusicJournal.Controllers.RecommendationsController::RemoveAlreadyFavorited(System.Collections.Generic.List`1<MusicJournal.Models.RecTrack>,System.Collections.Generic.List`1<MusicJournal.Models.FavoriteTrack>)": {
+          "Lines": {
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0
+          },
+          "Branches": []
+        },
+        "System.Void MusicJournal.Controllers.RecommendationsController::.ctor(MusicJournal.Data.ApplicationDbContext,MusicJournal.Services.IAIService,MusicJournal.Services.SpotifyService,Microsoft.AspNetCore.Identity.UserManager`1<MusicJournal.Models.ApplicationUser>)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Controllers.RecommendationsController/<>c": {
+        "System.String MusicJournal.Controllers.RecommendationsController/<>c::<Index>b__5_0(MusicJournal.Models.FavoriteTrack)": {
+          "Lines": {
+            "49": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Controllers.RecommendationsController/<AddToFavorites>d__6": {
+        "System.Void MusicJournal.Controllers.RecommendationsController/<AddToFavorites>d__6::MoveNext()": {
+          "Lines": {
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "82": 0,
+            "83": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "124": 0,
+            "125": 0
+          },
+          "Branches": [
+            {
+              "Line": 77,
+              "Offset": 139,
+              "EndOffset": 141,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 139,
+              "EndOffset": 159,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 162,
+              "EndOffset": 164,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 162,
+              "EndOffset": 181,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 745,
+              "EndOffset": 750,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 1014,
+              "EndOffset": 1019,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 90,
+              "Offset": 1014,
+              "EndOffset": 1285,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 745,
+              "EndOffset": 1605,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MusicJournal.Controllers.RecommendationsController/<GenerateFromSelected>d__8": {
+        "System.Void MusicJournal.Controllers.RecommendationsController/<GenerateFromSelected>d__8::MoveNext()": {
+          "Lines": {
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "141": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "156": 0,
+            "159": 0,
+            "161": 0,
+            "162": 0
+          },
+          "Branches": [
+            {
+              "Line": 137,
+              "Offset": 69,
+              "EndOffset": 71,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 137,
+              "Offset": 69,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 137,
+              "Offset": 90,
+              "EndOffset": 92,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 137,
+              "Offset": 90,
+              "EndOffset": 114,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 144,
+              "Offset": 529,
+              "EndOffset": 296,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 147,
+              "Offset": 483,
+              "EndOffset": 485,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 147,
+              "Offset": 483,
+              "EndOffset": 503,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 144,
+              "Offset": 529,
+              "EndOffset": 534,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 156,
+              "Offset": 1006,
+              "EndOffset": 1010,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 156,
+              "Offset": 1006,
+              "EndOffset": 1067,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MusicJournal.Controllers.RecommendationsController/<GenerateNew>d__7": {
+        "System.Void MusicJournal.Controllers.RecommendationsController/<GenerateNew>d__7::MoveNext()": {
+          "Lines": {
+            "129": 0,
+            "130": 0,
+            "131": 0
+          },
+          "Branches": []
+        }
+      },
+      "MusicJournal.Controllers.RecommendationsController/<Index>d__5": {
+        "System.Void MusicJournal.Controllers.RecommendationsController/<Index>d__5::MoveNext()": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "48": 0,
+            "50": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "64": 0,
+            "66": 0,
+            "68": 0,
+            "69": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 503,
+              "EndOffset": 508,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 514,
+              "EndOffset": 518,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 514,
+              "EndOffset": 575,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 617,
+              "EndOffset": 621,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 617,
+              "EndOffset": 678,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 503,
+              "EndOffset": 737,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 1206,
+              "EndOffset": 974,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 1160,
+              "EndOffset": 1162,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 1160,
+              "EndOffset": 1180,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 1206,
+              "EndOffset": 1211,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 1282,
+              "EndOffset": 1286,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 1282,
+              "EndOffset": 1343,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
