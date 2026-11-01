@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.8073999999999999" branch-rate="0.7674" version="1.9" timestamp="1793556406" lines-covered="369" lines-valid="457" branches-covered="66" branches-valid="86">
+<coverage line-rate="0.8118000000000001" branch-rate="0.7674" version="1.9" timestamp="1793556469" lines-covered="371" lines-valid="457" branches-covered="66" branches-valid="86">
   <sources>
     <source>/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/</source>
   </sources>
   <packages>
-    <package name="MusicJournal" line-rate="0.8073999999999999" branch-rate="0.7674" complexity="155">
+    <package name="MusicJournal" line-rate="0.8118000000000001" branch-rate="0.7674" complexity="155">
       <classes>
         <class name="Program" filename="Program.cs" line-rate="0" branch-rate="0" complexity="4">
           <methods>
@@ -126,22 +126,22 @@
             <line number="11" hits="25" branch="False" />
           </lines>
         </class>
-        <class name="MusicJournal.Models.ErrorViewModel" filename="Models/ErrorViewModel.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="MusicJournal.Models.ErrorViewModel" filename="Models/ErrorViewModel.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
-            <method name="get_RequestId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_RequestId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="0" branch="False" />
+                <line number="5" hits="9" branch="False" />
               </lines>
             </method>
-            <method name="get_ShowRequestId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="get_ShowRequestId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="7" hits="0" branch="False" />
+                <line number="7" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="5" hits="0" branch="False" />
-            <line number="7" hits="0" branch="False" />
+            <line number="5" hits="9" branch="False" />
+            <line number="7" hits="3" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Models.FavoriteTrack" filename="Models/FavoriteTrack.cs" line-rate="1" branch-rate="1" complexity="12">
