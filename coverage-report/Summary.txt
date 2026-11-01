@@ -1,35 +1,35 @@
 Summary
-  Generated on: 11/1/2026 - 11:59:32 AM
-  Coverage date: 11/1/2026 - 11:59:31 AM
+  Generated on: 11/1/2026 - 12:06:47 PM
+  Coverage date: 11/1/2026 - 12:06:46 PM
   Parser: Cobertura
   Assemblies: 1
   Classes: 13
   Files: 12
-  Line coverage: 59.1%
-  Covered lines: 253
-  Uncovered lines: 175
+  Line coverage: 86.2%
+  Covered lines: 369
+  Uncovered lines: 59
   Coverable lines: 428
   Total lines: 791
-  Branch coverage: 43.9% (36 of 82)
-  Covered branches: 36
+  Branch coverage: 80.4% (66 of 82)
+  Covered branches: 66
   Total branches: 82
-  Method coverage: 66.2% (51 of 77)
-  Full method coverage: 66.2% (51 of 77)
-  Covered methods: 51
-  Fully covered methods: 51
+  Method coverage: 83.1% (64 of 77)
+  Full method coverage: 83.1% (64 of 77)
+  Covered methods: 64
+  Fully covered methods: 64
   Total methods: 77
 
-MusicJournal                                               59.1%
+MusicJournal                                               86.2%
   MusicJournal.Controllers.FavoriteTracksController         100%
   MusicJournal.Controllers.GlobalTracksController           100%
   MusicJournal.Controllers.HomeController                     0%
-  MusicJournal.Controllers.RecommendationsController          0%
+  MusicJournal.Controllers.RecommendationsController        100%
   MusicJournal.Data.ApplicationDbContext                    100%
   MusicJournal.Models.ApplicationUser                        40%
   MusicJournal.Models.ErrorViewModel                          0%
   MusicJournal.Models.FavoriteTrack                         100%
   MusicJournal.Models.GlobalTrack                           100%
-  MusicJournal.Models.RecTrack                                0%
+  MusicJournal.Models.RecTrack                              100%
   MusicJournal.Models.ViewModels.CreateFavoriteViewModel    100%
   MusicJournal.Models.ViewModels.ProfileViewModel             0%
   MusicJournal.Models.ViewModels.TrackResult                100%
