@@ -121,3 +121,23 @@ A backlog item is Done when:
 
 ## Process
 See docs/BACKLOG.md for the current product backlog.
+
+## Testing & Code Coverage
+
+The unit test suite exercises core domain entities, data annotations, and database controller workflows using xUnit, Moq, and an in-memory SQLite provider. Code coverage metrics are tracked with Coverlet and compiled into human-readable text and interactive HTML reports via ReportGenerator.
+
+### Environment Setup
+
+Before running tests, ensure that the .NET global tools directory is added to your environment path with `export PATH="$PATH:$HOME/.dotnet/tools"`. If ReportGenerator is not yet installed on your machine, install it globally by running `dotnet tool install -g dotnet-reportgenerator-globaltool`.
+
+### Running Tests and Generating Coverage
+
+A script located at `./run-coverage.sh` handles testing and report compilation in a single execution. Running this script from the repository root executes `dotnet test` with Coverlet instrumentation, filters compiler and framework noise, and prints a formatted terminal summary from `coverage-report/Summary.txt`. For visual inspection, the script simultaneously builds an interactive HTML report that can be opened in any web browser via `open coverage-report/index.html`.
+
+### Coverage Strategy and Component Scope
+
+Our testing strategy achieves a justified coverage target of 100% across all functional business logic, domain models, view models, database context operations, and MVC controller actions. Specifically, complete 100% coverage was attained for all primary controllers (`FavoriteTracksController`, `GlobalTracksController`, `HomeController`, and `RecommendationsController`), all domain models and view models (`FavoriteTrack`, `GlobalTrack`, `RecTrack`, `ApplicationUser`, `ErrorViewModel`, `ProfileViewModel`, `CreateFavoriteViewModel`, and `TrackResult`), and the underlying `ApplicationDbContext`.
+
+### Exclusions & Architectural Justification
+
+Framework-generated database schema migrations (`MusicJournal.Migrations.*`) and Razor-compiled presentation templates (`AspNetCoreGeneratedDocument.*` and `MusicJournal.Views.*`) were intentionally excluded from coverage thresholds because they represent auto-generated markup and historical schema snapshots rather than testable business logic. Direct external network calls in `SpotifyService` and `AIService` were bypassed during controller execution in favor of deterministic custom `HttpMessageHandler` stubs and interface mocks, isolating controller execution paths while reserving live network verification for dedicated integration environments.
