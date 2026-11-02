@@ -4,7 +4,7 @@
     ViewData["Title"] = "Delete Favorite Track";
 }
 
-<h1>Delete Favorite Track</h1>
+<h1>Remove Favorite Track</h1>
 
 <h3 class="text-danger">Are you sure you want to remove this track from your favorites?</h3>
 
@@ -38,6 +38,6 @@
 
 <form asp-action="Delete" method="post" class="mt-3">
     <input type="hidden" asp-for="Id" />
-    <button type="submit" class="btn btn-danger">Confirm Delete</button>
+    <button type="submit" class="btn btn-danger">Confirm</button>
     <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
 </form>
