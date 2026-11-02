@@ -9,6 +9,7 @@ using MusicJournal.Models.ViewModels;
 
 namespace MusicJournal.Controllers
 {
+    [Authorize]
     public class FavoriteTracksController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -21,7 +22,6 @@ namespace MusicJournal.Controllers
             _spotify = spotify;
         }
         // GET: FavoriteTracks
-        [Authorize]
         public async Task<IActionResult> Index()
         {
             var user = await _userManager.GetUserAsync(User);
@@ -182,6 +182,7 @@ namespace MusicJournal.Controllers
 
         // POST: FavoriteTracks/AddFromTrending
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddFromTrending([FromBody] FavoriteTrack favoriteTrack)
         {
             var user = await _userManager.GetUserAsync(User);

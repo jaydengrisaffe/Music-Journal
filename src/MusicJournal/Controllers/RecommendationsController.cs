@@ -132,6 +132,7 @@ namespace MusicJournal.Controllers
 
         // POST: Generate recommendations based on selected favorites
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> GenerateFromSelected(List<string> selected)
         {
             if (selected == null || !selected.Any())

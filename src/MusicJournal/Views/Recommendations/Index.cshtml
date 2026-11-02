@@ -81,7 +81,9 @@ else
         <div style="background:white; padding:20px; border-radius:5px; max-width:900px; width:95%; max-height:80%; overflow-y:auto;">
             <h5>Select Favorites to Base Recommendations On</h5>
 
-            <form method="post" action="/Recommendations/GenerateFromSelected">
+            <form asp-controller="Recommendations"
+                    asp-action="GenerateFromSelected"
+                        method="post">
                 <div class="mb-2">
                     <input type="checkbox" id="selectAll" />
                     <label for="selectAll"><strong>Select All</strong></label>
