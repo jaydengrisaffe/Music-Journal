@@ -22,7 +22,7 @@
         <td>@item.Artist</td>
         <td>@item.Album</td>
         <td>
-            <div class="btn-group" role="group">
+            <div class="d-flex gap-1">
                 @if (!string.IsNullOrEmpty(item.SpotifyUrl))
                 {
                     <a href="@item.SpotifyUrl" target="_blank" class="btn btn-sm btn-success">spotify</a>
@@ -32,18 +32,18 @@
                 {
                     if (isAlreadyFavorited)
                     {
-                        <button class="btn btn-sm btn-secondary" disabled>added</button>
+                        <button class="btn btn-sm btn-success" disabled>Added!</button>
                     }
                     else
                     {
-                        <button class="btn btn-sm btn-warning add-favorite-btn"
+                        <button class="btn btn-sm btn-outline-primary add-favorite-btn"
                                 data-track-title="@item.Title"
                                 data-track-artist="@item.Artist"
                                 data-track-album="@item.Album"
                                 data-track-spotify="@item.SpotifyUrl"
                                 data-track-albumart="@item.AlbumArtUrl"
                                 data-track-spotifyid="@item.SpotifyId">
-                            add
+                            Add to Favorites
                         </button>
                     }
                 }
