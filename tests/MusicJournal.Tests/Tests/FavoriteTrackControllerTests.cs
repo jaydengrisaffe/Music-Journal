@@ -129,6 +129,125 @@ public class FavoriteTracksControllerTests
     }
 
     [Fact]
+public async Task Index_WithRatingFilter_ReturnsOnlyFavoritesWithSelectedRating()
+{
+    using var context = GetInMemoryDbContext(out var connection);
+    using (connection)
+    {
+        var user = new ApplicationUser { Id = "user-1", UserName = "listener1" };
+
+        context.FavoriteTracks.AddRange(
+            new FavoriteTrack
+            {
+                Id = 1,
+                UserId = user.Id,
+                Title = "Five Star Song",
+                Artist = "Artist A",
+                Rating = 5
+            },
+            new FavoriteTrack
+            {
+                Id = 2,
+                UserId = user.Id,
+                Title = "Three Star Song",
+                Artist = "Artist B",
+                Rating = 3
+            },
+            new FavoriteTrack
+            {
+                Id = 3,
+                UserId = user.Id,
+                Title = "Another Five Star Song",
+                Artist = "Artist C",
+                Rating = 5
+            }
+        );
+
+        await context.SaveChangesAsync();
+
+        var userManager = GetMockUserManager(user);
+        var controller = new FavoriteTracksController(context, userManager, null!);
+        SetControllerUserContext(controller, user);
+
+        var result = await controller.Index(5);
+
+        var viewResult = Assert.IsType<ViewResult>(result);
+        var model = Assert.IsAssignableFrom<List<FavoriteTrack>>(viewResult.Model);
+
+        Assert.Equal(2, model.Count);
+        Assert.All(model, track => Assert.Equal(5, track.Rating));
+        Assert.Equal(5, controller.ViewBag.SelectedRating);
+    }
+}
+
+[Fact]
+public async Task Index_WithRatingFilterAndNoMatches_ReturnsEmptyList()
+{
+    using var context = GetInMemoryDbContext(out var connection);
+    using (connection)
+    {
+        var user = new ApplicationUser { Id = "user-1", UserName = "listener1" };
+
+        context.FavoriteTracks.Add(new FavoriteTrack
+        {
+            Id = 1,
+            UserId = user.Id,
+            Title = "Five Star Song",
+            Artist = "Artist A",
+            Rating = 5
+        });
+
+        await context.SaveChangesAsync();
+
+        var userManager = GetMockUserManager(user);
+        var controller = new FavoriteTracksController(context, userManager, null!);
+        SetControllerUserContext(controller, user);
+
+        var result = await controller.Index(3);
+
+        var viewResult = Assert.IsType<ViewResult>(result);
+        var model = Assert.IsAssignableFrom<List<FavoriteTrack>>(viewResult.Model);
+
+        Assert.Empty(model);
+        Assert.Equal(3, controller.ViewBag.SelectedRating);
+    }
+}
+
+[Fact]
+public async Task UpdateRating_NullRating_ClearsExistingRating()
+{
+    using var context = GetInMemoryDbContext(out var connection);
+    using (connection)
+    {
+        var user = new ApplicationUser { Id = "user-1", UserName = "listener1" };
+
+        context.FavoriteTracks.Add(new FavoriteTrack
+        {
+            Id = 102,
+            UserId = user.Id,
+            Title = "Rated Song",
+            Artist = "Artist",
+            Rating = 5
+        });
+
+        await context.SaveChangesAsync();
+
+        var userManager = GetMockUserManager(user);
+        var controller = new FavoriteTracksController(context, userManager, null!);
+        SetControllerUserContext(controller, user);
+
+        var result = await controller.UpdateRating(102, null);
+
+        var redirect = Assert.IsType<RedirectToActionResult>(result);
+        Assert.Equal(nameof(FavoriteTracksController.Index), redirect.ActionName);
+
+        var track = await context.FavoriteTracks.FindAsync(102);
+        Assert.NotNull(track);
+        Assert.Null(track.Rating);
+    }
+}
+
+    [Fact]
     public async Task Create_EmptyQuery_ReturnsViewWithEmptyResults()
     {
         using var context = GetInMemoryDbContext(out var connection);

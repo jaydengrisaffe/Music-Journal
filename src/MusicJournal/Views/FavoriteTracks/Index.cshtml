@@ -9,10 +9,44 @@
     <a asp-action="Create" class="btn btn-primary">+ Add Favorite</a>
 </div>
 
+<form asp-action="Index" method="get" class="d-flex align-items-center gap-2 mb-4">
+        <label for="rating" class="form-label mb-0">Filter by Rating:</label>
+
+        <select name="rating" id="rating" class="form-select" style="width: auto;">
+            <option value="">All Ratings</option>
+
+            @for (int i = 5; i >= 1; i--)
+            {
+                if (ViewBag.SelectedRating == i)
+                {
+                    <option value="@i" selected>@i ★</option>
+                }
+                else
+                {
+                    <option value="@i">@i ★</option>
+                }
+            }
+        </select>
+
+        <button type="submit" class="btn btn-primary">Filter</button>
+
+        @if (ViewBag.SelectedRating != null)
+        {
+            <a asp-action="Index" class="btn btn-outline-secondary">Clear</a>
+        }
+    </form>
+
 @if (!Model.Any())
 {
     <div class="alert alert-info">
-        You haven't added any favorite tracks yet. Start building your collection!
+        @if (ViewBag.SelectedRating != null)
+        {
+            <span>You don't have any @ViewBag.SelectedRating-star favorite tracks.</span>
+        }
+        else
+        {
+            <span>You haven't added any favorite tracks yet. Start building your collection!</span>
+        }
     </div>
 }
 else
@@ -46,7 +80,16 @@ else
                         <form asp-action="UpdateRating" method="post" class="d-flex gap-1">
                             <input type="hidden" name="id" value="@item.Id" />
 
-                            <select name="rating" class="form-select form-select-sm">
+                            <select name="rating" class="form-select form-select-sm" style="width: 85px;">>
+                                @if (item.Rating == null)
+                                {
+                                    <option value="" selected>None</option>
+                                }
+                                else
+                                {
+                                    <option value="">None</option>
+                                }
+
                                 @for (int i = 1; i <= 5; i++)
                                 {
                                     if (item.Rating == i)

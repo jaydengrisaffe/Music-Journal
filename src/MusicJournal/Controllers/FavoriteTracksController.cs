@@ -22,14 +22,23 @@ namespace MusicJournal.Controllers
             _spotify = spotify;
         }
         // GET: FavoriteTracks
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? rating = null)
         {
             var user = await _userManager.GetUserAsync(User);
 
-            var favorites = await _context.FavoriteTracks
-                .Where(f => f.UserId == user.Id)
+            var favoritesQuery = _context.FavoriteTracks
+                .Where(f => f.UserId == user.Id);
+
+            if (rating.HasValue)
+            {
+                favoritesQuery = favoritesQuery.Where(f => f.Rating == rating.Value);
+            }
+
+            var favorites = await favoritesQuery
                 .OrderByDescending(f => f.CreatedAt)
                 .ToListAsync();
+
+            ViewBag.SelectedRating = rating;
 
             return View(favorites);
         }
@@ -239,9 +248,9 @@ namespace MusicJournal.Controllers
         // POST: FavoriteTracks/UpdateRating
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> UpdateRating(int id, int rating)
+        public async Task<IActionResult> UpdateRating(int id, int? rating)
         {
-            if (rating < 1 || rating > 5)
+            if (rating.HasValue && (rating.Value < 1 || rating.Value > 5))
             {
                 return BadRequest();
             }
