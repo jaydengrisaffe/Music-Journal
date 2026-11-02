@@ -1,0 +1,34 @@
+name: Cross-Platform Testing & Coverage
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  test:
+    name: Test on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore Dependencies
+        run: dotnet restore tests/MusicJournal.Tests/MusicJournal.Tests.csproj
+
+      - name: Build Test Project
+        run: dotnet build tests/MusicJournal.Tests/MusicJournal.Tests.csproj --no-restore --configuration Release
+
+      - name: Run Tests
+        run: dotnet test tests/MusicJournal.Tests/MusicJournal.Tests.csproj --no-build --configuration Release --verbosity normal
