@@ -1,95 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.8271" branch-rate="0.7674" version="1.9" timestamp="1793556602" lines-covered="378" lines-valid="457" branches-covered="66" branches-valid="86">
+<coverage line-rate="0.9531999999999999" branch-rate="0.878" version="1.9" timestamp="1793584787" lines-covered="408" lines-valid="428" branches-covered="72" branches-valid="82">
   <sources>
     <source>/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/</source>
   </sources>
   <packages>
-    <package name="MusicJournal" line-rate="0.8271" branch-rate="0.7674" complexity="155">
+    <package name="MusicJournal" line-rate="0.9531999999999999" branch-rate="0.878" complexity="151">
       <classes>
-        <class name="Program" filename="Program.cs" line-rate="0" branch-rate="0" complexity="4">
-          <methods>
-            <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="0" branch-rate="0" complexity="4">
-              <lines>
-                <line number="8" hits="0" branch="False" />
-                <line number="11" hits="0" branch="True" condition-coverage="0% (0/2)">
-                  <conditions>
-                    <condition number="31" type="jump" coverage="0%" />
-                  </conditions>
-                </line>
-                <line number="12" hits="0" branch="False" />
-                <line number="13" hits="0" branch="False" />
-                <line number="17" hits="0" branch="False" />
-                <line number="20" hits="0" branch="False" />
-                <line number="24" hits="0" branch="False" />
-                <line number="25" hits="0" branch="False" />
-                <line number="26" hits="0" branch="False" />
-                <line number="27" hits="0" branch="False" />
-                <line number="29" hits="0" branch="False" />
-                <line number="32" hits="0" branch="True" condition-coverage="0% (0/2)">
-                  <conditions>
-                    <condition number="185" type="jump" coverage="0%" />
-                  </conditions>
-                </line>
-                <line number="33" hits="0" branch="False" />
-                <line number="35" hits="0" branch="False" />
-                <line number="37" hits="0" branch="False" />
-                <line number="38" hits="0" branch="False" />
-                <line number="40" hits="0" branch="False" />
-                <line number="41" hits="0" branch="False" />
-                <line number="43" hits="0" branch="False" />
-                <line number="44" hits="0" branch="False" />
-                <line number="46" hits="0" branch="False" />
-                <line number="48" hits="0" branch="False" />
-                <line number="50" hits="0" branch="False" />
-                <line number="51" hits="0" branch="False" />
-                <line number="52" hits="0" branch="False" />
-                <line number="53" hits="0" branch="False" />
-                <line number="55" hits="0" branch="False" />
-                <line number="56" hits="0" branch="False" />
-                <line number="68" hits="0" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="8" hits="0" branch="False" />
-            <line number="11" hits="0" branch="True" condition-coverage="0% (0/2)">
-              <conditions>
-                <condition number="31" type="jump" coverage="0%" />
-              </conditions>
-            </line>
-            <line number="12" hits="0" branch="False" />
-            <line number="13" hits="0" branch="False" />
-            <line number="17" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="24" hits="0" branch="False" />
-            <line number="25" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
-            <line number="29" hits="0" branch="False" />
-            <line number="32" hits="0" branch="True" condition-coverage="0% (0/2)">
-              <conditions>
-                <condition number="185" type="jump" coverage="0%" />
-              </conditions>
-            </line>
-            <line number="33" hits="0" branch="False" />
-            <line number="35" hits="0" branch="False" />
-            <line number="37" hits="0" branch="False" />
-            <line number="38" hits="0" branch="False" />
-            <line number="40" hits="0" branch="False" />
-            <line number="41" hits="0" branch="False" />
-            <line number="43" hits="0" branch="False" />
-            <line number="44" hits="0" branch="False" />
-            <line number="46" hits="0" branch="False" />
-            <line number="48" hits="0" branch="False" />
-            <line number="50" hits="0" branch="False" />
-            <line number="51" hits="0" branch="False" />
-            <line number="52" hits="0" branch="False" />
-            <line number="53" hits="0" branch="False" />
-            <line number="55" hits="0" branch="False" />
-            <line number="56" hits="0" branch="False" />
-            <line number="68" hits="0" branch="False" />
-          </lines>
-        </class>
         <class name="MusicJournal.Models.ApplicationUser" filename="Models/ApplicationUser.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
             <method name="get_DisplayName" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -114,7 +30,7 @@
             </method>
             <method name="get_FavoriteTracks" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="32" branch="False" />
+                <line number="11" hits="37" branch="False" />
               </lines>
             </method>
           </methods>
@@ -123,7 +39,7 @@
             <line number="8" hits="3" branch="False" />
             <line number="9" hits="6" branch="False" />
             <line number="10" hits="3" branch="False" />
-            <line number="11" hits="32" branch="False" />
+            <line number="11" hits="37" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Models.ErrorViewModel" filename="Models/ErrorViewModel.cs" line-rate="1" branch-rate="1" complexity="2">
@@ -286,48 +202,48 @@
           <methods>
             <method name="get_Title" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="9" hits="56" branch="False" />
+                <line number="9" hits="62" branch="False" />
               </lines>
             </method>
             <method name="get_Artist" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="54" branch="False" />
+                <line number="13" hits="60" branch="False" />
               </lines>
             </method>
             <method name="get_Album" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="35" branch="False" />
+                <line number="16" hits="38" branch="False" />
               </lines>
             </method>
             <method name="get_SpotifyUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="35" branch="False" />
+                <line number="19" hits="38" branch="False" />
               </lines>
             </method>
             <method name="get_SpotifyId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="22" hits="35" branch="False" />
+                <line number="22" hits="41" branch="False" />
               </lines>
             </method>
             <method name="get_AlbumArtUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="25" hits="35" branch="False" />
+                <line number="25" hits="38" branch="False" />
               </lines>
             </method>
             <method name="get_CreatedAt" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="27" hits="21" branch="False" />
+                <line number="27" hits="24" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="9" hits="56" branch="False" />
-            <line number="13" hits="54" branch="False" />
-            <line number="16" hits="35" branch="False" />
-            <line number="19" hits="35" branch="False" />
-            <line number="22" hits="35" branch="False" />
-            <line number="25" hits="35" branch="False" />
-            <line number="27" hits="21" branch="False" />
+            <line number="9" hits="62" branch="False" />
+            <line number="13" hits="60" branch="False" />
+            <line number="16" hits="38" branch="False" />
+            <line number="19" hits="38" branch="False" />
+            <line number="22" hits="41" branch="False" />
+            <line number="25" hits="38" branch="False" />
+            <line number="27" hits="24" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Models.ViewModels.CreateFavoriteViewModel" filename="Models/ViewModels/CreateFavoriteViewModel.cs" line-rate="1" branch-rate="1" complexity="6">
@@ -460,76 +376,76 @@
           <methods>
             <method name="get_GlobalTracks" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="50" branch="False" />
+                <line number="15" hits="57" branch="False" />
               </lines>
             </method>
             <method name="get_FavoriteTracks" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="16" hits="70" branch="False" />
+                <line number="16" hits="79" branch="False" />
               </lines>
             </method>
             <method name="OnModelCreating" signature="(Microsoft.EntityFrameworkCore.ModelBuilder)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="1" branch="False" />
-                <line number="20" hits="1" branch="False" />
-                <line number="22" hits="1" branch="False" />
-                <line number="23" hits="1" branch="False" />
-                <line number="24" hits="1" branch="False" />
-                <line number="25" hits="1" branch="False" />
-                <line number="26" hits="1" branch="False" />
-                <line number="27" hits="1" branch="False" />
+                <line number="19" hits="2" branch="False" />
+                <line number="20" hits="2" branch="False" />
+                <line number="22" hits="2" branch="False" />
+                <line number="23" hits="2" branch="False" />
+                <line number="24" hits="2" branch="False" />
+                <line number="25" hits="2" branch="False" />
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="2" branch="False" />
               </lines>
             </method>
             <method name="get_ProfileViewModel" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="29" hits="62" branch="False" />
+                <line number="29" hits="76" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(Microsoft.EntityFrameworkCore.DbContextOptions`1&lt;MusicJournal.Data.ApplicationDbContext&gt;)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="31" branch="False" />
-                <line number="12" hits="31" branch="False" />
-                <line number="13" hits="31" branch="False" />
+                <line number="11" hits="38" branch="False" />
+                <line number="12" hits="38" branch="False" />
+                <line number="13" hits="38" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="15" hits="50" branch="False" />
-            <line number="16" hits="70" branch="False" />
-            <line number="19" hits="1" branch="False" />
-            <line number="20" hits="1" branch="False" />
-            <line number="22" hits="1" branch="False" />
-            <line number="23" hits="1" branch="False" />
-            <line number="24" hits="1" branch="False" />
-            <line number="25" hits="1" branch="False" />
-            <line number="26" hits="1" branch="False" />
-            <line number="27" hits="1" branch="False" />
-            <line number="29" hits="62" branch="False" />
-            <line number="11" hits="31" branch="False" />
-            <line number="12" hits="31" branch="False" />
-            <line number="13" hits="31" branch="False" />
+            <line number="15" hits="57" branch="False" />
+            <line number="16" hits="79" branch="False" />
+            <line number="19" hits="2" branch="False" />
+            <line number="20" hits="2" branch="False" />
+            <line number="22" hits="2" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="24" hits="2" branch="False" />
+            <line number="25" hits="2" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="29" hits="76" branch="False" />
+            <line number="11" hits="38" branch="False" />
+            <line number="12" hits="38" branch="False" />
+            <line number="13" hits="38" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.FavoriteTracksController" filename="Controllers/FavoriteTracksController.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="(MusicJournal.Data.ApplicationDbContext,Microsoft.AspNetCore.Identity.UserManager`1&lt;MusicJournal.Models.ApplicationUser&gt;,MusicJournal.Services.SpotifyService)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="14" branch="False" />
-                <line number="18" hits="14" branch="False" />
-                <line number="19" hits="14" branch="False" />
-                <line number="20" hits="14" branch="False" />
-                <line number="21" hits="14" branch="False" />
-                <line number="22" hits="14" branch="False" />
+                <line number="17" hits="15" branch="False" />
+                <line number="18" hits="15" branch="False" />
+                <line number="19" hits="15" branch="False" />
+                <line number="20" hits="15" branch="False" />
+                <line number="21" hits="15" branch="False" />
+                <line number="22" hits="15" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="17" hits="14" branch="False" />
-            <line number="18" hits="14" branch="False" />
-            <line number="19" hits="14" branch="False" />
-            <line number="20" hits="14" branch="False" />
-            <line number="21" hits="14" branch="False" />
-            <line number="22" hits="14" branch="False" />
+            <line number="17" hits="15" branch="False" />
+            <line number="18" hits="15" branch="False" />
+            <line number="19" hits="15" branch="False" />
+            <line number="20" hits="15" branch="False" />
+            <line number="21" hits="15" branch="False" />
+            <line number="22" hits="15" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.FavoriteTracksController/&lt;&gt;c" filename="Controllers/FavoriteTracksController.cs" line-rate="1" branch-rate="1" complexity="3">
@@ -974,26 +890,26 @@
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="26" hits="1" branch="False" />
-                <line number="27" hits="1" branch="False" />
-                <line number="29" hits="1" branch="False" />
-                <line number="30" hits="1" branch="False" />
-                <line number="31" hits="1" branch="False" />
-                <line number="32" hits="1" branch="False" />
-                <line number="34" hits="1" branch="False" />
-                <line number="35" hits="1" branch="False" />
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="2" branch="False" />
+                <line number="29" hits="2" branch="False" />
+                <line number="30" hits="2" branch="False" />
+                <line number="31" hits="2" branch="False" />
+                <line number="32" hits="2" branch="False" />
+                <line number="34" hits="2" branch="False" />
+                <line number="35" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="26" hits="1" branch="False" />
-            <line number="27" hits="1" branch="False" />
-            <line number="29" hits="1" branch="False" />
-            <line number="30" hits="1" branch="False" />
-            <line number="31" hits="1" branch="False" />
-            <line number="32" hits="1" branch="False" />
-            <line number="34" hits="1" branch="False" />
-            <line number="35" hits="1" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="29" hits="2" branch="False" />
+            <line number="30" hits="2" branch="False" />
+            <line number="31" hits="2" branch="False" />
+            <line number="32" hits="2" branch="False" />
+            <line number="34" hits="2" branch="False" />
+            <line number="35" hits="2" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.GlobalTracksController" filename="Controllers/GlobalTracksController.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -1172,13 +1088,13 @@
             <line number="44" hits="2" branch="False" />
           </lines>
         </class>
-        <class name="MusicJournal.Controllers.HomeController" filename="Controllers/HomeController.cs" line-rate="0" branch-rate="0" complexity="6">
+        <class name="MusicJournal.Controllers.HomeController" filename="Controllers/HomeController.cs" line-rate="0.8421" branch-rate="0" complexity="6">
           <methods>
-            <method name="Privacy" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name="Privacy" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="76" hits="0" branch="False" />
-                <line number="77" hits="0" branch="False" />
-                <line number="78" hits="0" branch="False" />
+                <line number="76" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
               </lines>
             </method>
             <method name="Error" signature="()" line-rate="0" branch-rate="0" complexity="4">
@@ -1193,28 +1109,28 @@
                 <line number="84" hits="0" branch="False" />
               </lines>
             </method>
-            <method name=".ctor" signature="(Microsoft.Extensions.Logging.ILogger`1&lt;MusicJournal.Controllers.HomeController&gt;,MusicJournal.Data.ApplicationDbContext,Microsoft.AspNetCore.Identity.UserManager`1&lt;MusicJournal.Models.ApplicationUser&gt;,MusicJournal.Services.IAIService,MusicJournal.Services.SpotifyService)" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="(Microsoft.Extensions.Logging.ILogger`1&lt;MusicJournal.Controllers.HomeController&gt;,MusicJournal.Data.ApplicationDbContext,Microsoft.AspNetCore.Identity.UserManager`1&lt;MusicJournal.Models.ApplicationUser&gt;,MusicJournal.Services.IAIService,MusicJournal.Services.SpotifyService)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="20" hits="0" branch="False" />
-                <line number="21" hits="0" branch="False" />
-                <line number="22" hits="0" branch="False" />
-                <line number="23" hits="0" branch="False" />
-                <line number="24" hits="0" branch="False" />
-                <line number="25" hits="0" branch="False" />
-                <line number="26" hits="0" branch="False" />
-                <line number="27" hits="0" branch="False" />
-                <line number="28" hits="0" branch="False" />
-                <line number="29" hits="0" branch="False" />
-                <line number="30" hits="0" branch="False" />
-                <line number="31" hits="0" branch="False" />
-                <line number="32" hits="0" branch="False" />
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="25" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+                <line number="27" hits="3" branch="False" />
+                <line number="28" hits="3" branch="False" />
+                <line number="29" hits="3" branch="False" />
+                <line number="30" hits="3" branch="False" />
+                <line number="31" hits="3" branch="False" />
+                <line number="32" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="76" hits="0" branch="False" />
-            <line number="77" hits="0" branch="False" />
-            <line number="78" hits="0" branch="False" />
+            <line number="76" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+            <line number="78" hits="1" branch="False" />
             <line number="82" hits="0" branch="False" />
             <line number="83" hits="0" branch="True" condition-coverage="0% (0/4)">
               <conditions>
@@ -1223,19 +1139,19 @@
               </conditions>
             </line>
             <line number="84" hits="0" branch="False" />
-            <line number="20" hits="0" branch="False" />
-            <line number="21" hits="0" branch="False" />
-            <line number="22" hits="0" branch="False" />
-            <line number="23" hits="0" branch="False" />
-            <line number="24" hits="0" branch="False" />
-            <line number="25" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
-            <line number="27" hits="0" branch="False" />
-            <line number="28" hits="0" branch="False" />
-            <line number="29" hits="0" branch="False" />
-            <line number="30" hits="0" branch="False" />
-            <line number="31" hits="0" branch="False" />
-            <line number="32" hits="0" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="27" hits="3" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="29" hits="3" branch="False" />
+            <line number="30" hits="3" branch="False" />
+            <line number="31" hits="3" branch="False" />
+            <line number="32" hits="3" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.HomeController/&lt;&gt;c" filename="Controllers/HomeController.cs" line-rate="0" branch-rate="1" complexity="1">
@@ -1250,31 +1166,31 @@
             <line number="53" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="MusicJournal.Controllers.HomeController/&lt;Index&gt;d__6" filename="Controllers/HomeController.cs" line-rate="0" branch-rate="0" complexity="12">
+        <class name="MusicJournal.Controllers.HomeController/&lt;Index&gt;d__6" filename="Controllers/HomeController.cs" line-rate="0.46659999999999996" branch-rate="0.5" complexity="12">
           <methods>
-            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="12">
+            <method name="MoveNext" signature="()" line-rate="0.46659999999999996" branch-rate="0.5" complexity="12">
               <lines>
-                <line number="35" hits="0" branch="False" />
-                <line number="36" hits="0" branch="True" condition-coverage="0% (0/4)">
+                <line number="35" hits="2" branch="False" />
+                <line number="36" hits="2" branch="True" condition-coverage="75% (3/4)">
                   <conditions>
-                    <condition number="60" type="jump" coverage="0%" />
-                    <condition number="73" type="jump" coverage="0%" />
+                    <condition number="60" type="jump" coverage="50%" />
+                    <condition number="73" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="37" hits="0" branch="False" />
-                <line number="38" hits="0" branch="False" />
-                <line number="40" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="37" hits="1" branch="False" />
+                <line number="38" hits="1" branch="False" />
+                <line number="40" hits="1" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="255" type="jump" coverage="0%" />
+                    <condition number="255" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="41" hits="0" branch="False" />
-                <line number="43" hits="0" branch="False" />
-                <line number="44" hits="0" branch="False" />
-                <line number="45" hits="0" branch="False" />
-                <line number="47" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="41" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="45" hits="1" branch="False" />
+                <line number="47" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="556" type="jump" coverage="0%" />
+                    <condition number="556" type="jump" coverage="50%" />
                   </conditions>
                 </line>
                 <line number="48" hits="0" branch="False" />
@@ -1301,35 +1217,35 @@
                 <line number="66" hits="0" branch="False" />
                 <line number="67" hits="0" branch="False" />
                 <line number="68" hits="0" branch="False" />
-                <line number="69" hits="0" branch="False" />
-                <line number="70" hits="0" branch="False" />
-                <line number="72" hits="0" branch="False" />
-                <line number="73" hits="0" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+                <line number="72" hits="2" branch="False" />
+                <line number="73" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="35" hits="0" branch="False" />
-            <line number="36" hits="0" branch="True" condition-coverage="0% (0/4)">
+            <line number="35" hits="2" branch="False" />
+            <line number="36" hits="2" branch="True" condition-coverage="75% (3/4)">
               <conditions>
-                <condition number="60" type="jump" coverage="0%" />
-                <condition number="73" type="jump" coverage="0%" />
+                <condition number="60" type="jump" coverage="50%" />
+                <condition number="73" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="37" hits="0" branch="False" />
-            <line number="38" hits="0" branch="False" />
-            <line number="40" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="37" hits="1" branch="False" />
+            <line number="38" hits="1" branch="False" />
+            <line number="40" hits="1" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="255" type="jump" coverage="0%" />
+                <condition number="255" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="41" hits="0" branch="False" />
-            <line number="43" hits="0" branch="False" />
-            <line number="44" hits="0" branch="False" />
-            <line number="45" hits="0" branch="False" />
-            <line number="47" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="41" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="45" hits="1" branch="False" />
+            <line number="47" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="556" type="jump" coverage="0%" />
+                <condition number="556" type="jump" coverage="50%" />
               </conditions>
             </line>
             <line number="48" hits="0" branch="False" />
@@ -1356,10 +1272,10 @@
             <line number="66" hits="0" branch="False" />
             <line number="67" hits="0" branch="False" />
             <line number="68" hits="0" branch="False" />
-            <line number="69" hits="0" branch="False" />
-            <line number="70" hits="0" branch="False" />
-            <line number="72" hits="0" branch="False" />
-            <line number="73" hits="0" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="72" hits="2" branch="False" />
+            <line number="73" hits="2" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.RecommendationsController" filename="Controllers/RecommendationsController.cs" line-rate="1" branch-rate="1" complexity="2">
