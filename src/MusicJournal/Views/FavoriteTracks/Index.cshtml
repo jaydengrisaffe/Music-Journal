@@ -24,6 +24,7 @@ else
                 <th>Title</th>
                 <th>Artist</th>
                 <th>Album</th>
+                <th>Rating</th>
                 <th>Date Added</th>
                 <th>Actions</th>
             </tr>
@@ -41,6 +42,29 @@ else
                     <td>@item.Title</td>
                     <td>@item.Artist</td>
                     <td>@item.Album</td>
+                    <td>
+                        <form asp-action="UpdateRating" method="post" class="d-flex gap-1">
+                            <input type="hidden" name="id" value="@item.Id" />
+
+                            <select name="rating" class="form-select form-select-sm">
+                                @for (int i = 1; i <= 5; i++)
+                                {
+                                    if (item.Rating == i)
+                                    {
+                                        <option value="@i" selected>@i ★</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@i">@i ★</option>
+                                    }
+                                }
+                            </select>
+
+                            <button type="submit" class="btn btn-sm btn-primary">
+                                Save
+                            </button>
+                        </form>
+                    </td>
                     <td>@item.CreatedAt.ToShortDateString()</td>
                     <td>
                         <div class="d-flex gap-1">

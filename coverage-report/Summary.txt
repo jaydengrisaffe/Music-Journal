@@ -1,23 +1,23 @@
 Summary
-  Generated on: 11/1/2026 - 8:02:19 PM
-  Coverage date: 11/1/2026 - 8:02:19 PM
+  Generated on: 11/2/2026 - 10:25:57 AM
+  Coverage date: 11/2/2026 - 10:25:57 AM
   Parser: Cobertura
   Assemblies: 1
   Classes: 13
   Files: 12
   Line coverage: 100%
-  Covered lines: 428
+  Covered lines: 443
   Uncovered lines: 0
-  Coverable lines: 428
-  Total lines: 791
-  Branch coverage: 98.7% (81 of 82)
-  Covered branches: 81
-  Total branches: 82
-  Method coverage: 100% (77 of 77)
-  Full method coverage: 100% (77 of 77)
-  Covered methods: 77
-  Fully covered methods: 77
-  Total methods: 77
+  Coverable lines: 443
+  Total lines: 822
+  Branch coverage: 97.7% (86 of 88)
+  Covered branches: 86
+  Total branches: 88
+  Method coverage: 100% (79 of 79)
+  Full method coverage: 100% (79 of 79)
+  Covered methods: 79
+  Fully covered methods: 79
+  Total methods: 79
 
 MusicJournal                                                100%
   MusicJournal.Controllers.FavoriteTracksController         100%
