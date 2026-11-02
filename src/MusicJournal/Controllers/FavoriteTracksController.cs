@@ -235,5 +235,31 @@ namespace MusicJournal.Controllers
 
             return Json(new { success = true });
         }
+
+        // POST: FavoriteTracks/UpdateRating
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateRating(int id, int rating)
+        {
+            if (rating < 1 || rating > 5)
+            {
+                return BadRequest();
+            }
+
+            var user = await _userManager.GetUserAsync(User);
+
+            var favoriteTrack = await _context.FavoriteTracks
+                .FirstOrDefaultAsync(f => f.Id == id && f.UserId == user.Id);
+
+            if (favoriteTrack == null)
+            {
+                return NotFound();
+            }
+
+            favoriteTrack.Rating = rating;
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

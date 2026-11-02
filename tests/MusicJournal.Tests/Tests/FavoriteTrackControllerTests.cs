@@ -447,6 +447,82 @@ public class FavoriteTracksControllerTests
             Assert.Equal(1, await context.GlobalTracks.CountAsync());
         }
     }
+
+    [Fact]
+    public async Task UpdateRating_ValidRating_UpdatesTrackAndRedirects()
+    {
+        using var context = GetInMemoryDbContext(out var connection);
+        using (connection)
+        {
+            var user = new ApplicationUser { Id = "user-1", UserName = "listener1" };
+
+            context.FavoriteTracks.Add(new FavoriteTrack
+            {
+                Id = 100,
+                UserId = user.Id,
+                Title = "Rated Song",
+                Artist = "Rated Artist"
+            });
+            await context.SaveChangesAsync();
+
+            var userManager = GetMockUserManager(user);
+            var controller = new FavoriteTracksController(context, userManager, null!);
+            SetControllerUserContext(controller, user);
+
+            var result = await controller.UpdateRating(100, 4);
+
+            var redirect = Assert.IsType<RedirectToActionResult>(result);
+            Assert.Equal(nameof(FavoriteTracksController.Index), redirect.ActionName);
+
+            var track = await context.FavoriteTracks.FindAsync(100);
+            Assert.Equal(4, track!.Rating);
+        }
+    }
+
+    [Fact]
+    public async Task UpdateRating_InvalidRating_ReturnsBadRequest()
+    {
+        using var context = GetInMemoryDbContext(out var connection);
+        using (connection)
+        {
+            var user = new ApplicationUser { Id = "user-1", UserName = "listener1" };
+            var userManager = GetMockUserManager(user);
+            var controller = new FavoriteTracksController(context, userManager, null!);
+            SetControllerUserContext(controller, user);
+
+            var result = await controller.UpdateRating(1, 6);
+
+            Assert.IsType<BadRequestResult>(result);
+        }
+    }
+
+    [Fact]
+    public async Task UpdateRating_TrackNotOwnedByUser_ReturnsNotFound()
+    {
+        using var context = GetInMemoryDbContext(out var connection);
+        using (connection)
+        {
+            var user = new ApplicationUser { Id = "user-1", UserName = "listener1" };
+            var otherUser = new ApplicationUser { Id = "user-2", UserName = "listener2" };
+
+            context.FavoriteTracks.Add(new FavoriteTrack
+            {
+                Id = 101,
+                UserId = otherUser.Id,
+                Title = "Other Song",
+                Artist = "Other Artist"
+            });
+            await context.SaveChangesAsync();
+
+            var userManager = GetMockUserManager(user);
+            var controller = new FavoriteTracksController(context, userManager, null!);
+            SetControllerUserContext(controller, user);
+
+            var result = await controller.UpdateRating(101, 5);
+
+            Assert.IsType<NotFoundResult>(result);
+        }
+    }
 }
 
 // Minimal in-memory TempDataProvider to avoid missing reference errors

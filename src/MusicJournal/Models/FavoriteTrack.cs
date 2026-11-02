@@ -35,6 +35,9 @@ namespace MusicJournal.Models
         [StringLength(500)]
         public string? AlbumArtUrl { get; set; }
 
+        [Range(1, 5)]
+        public int? Rating { get; set; }
+
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         public virtual ApplicationUser? User { get; set; }
