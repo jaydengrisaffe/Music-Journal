@@ -1,0 +1,82 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  lint:
+    name: Lint & Format (.NET)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 9
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Verify code formatting & analyzers
+        run: dotnet format --verify-no-changes --verbosity diagnostic
+
+  dotnet-tests:
+    name: .NET Tests & Coverage
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 9
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Run xUnit tests
+        run: dotnet test tests/MusicJournal.Tests/MusicJournal.Tests.csproj --no-restore --configuration Release --nologo /p:WarningLevel=0
+
+      - name: Install ReportGenerator & print coverage summary
+        run: |
+          dotnet tool install -g dotnet-reportgenerator-globaltool
+          ~/.dotnet/tools/reportgenerator \
+            -reports:"tests/MusicJournal.Tests/coverage.cobertura.xml" \
+            -targetdir:"coverage-report" \
+            -reporttypes:TextSummary \
+            -classfilters:"-AspNetCoreGeneratedDocument*;-MusicJournal.Views*;-MusicJournal.Migrations*;-MusicJournal.Services*;-Program"
+          cat coverage-report/Summary.txt
+
+      - name: Upload coverage report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dotnet-coverage-report
+          path: coverage-report/Summary.txt
+
+  js-tests:
+    name: JS Tests (Jest)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Jest tests
+        run: npm run test:coverage
