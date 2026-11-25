@@ -158,10 +158,10 @@ namespace MusicJournal.Services
             {
                 Title = item["name"]?.ToString() ?? title,
                 Artist = item["artists"]?[0]?["name"]?.ToString() ?? artist,
-                Album = item["album"]?["name"]?.ToString(),
-                SpotifyUrl = item["external_urls"]?["spotify"]?.ToString(),
-                AlbumArtUrl = item["album"]?["images"]?[0]?["url"]?.ToString(),
-                SpotifyId = item["id"]?.ToString()
+                Album = item["album"]?["name"]?.ToString() ?? string.Empty,
+                SpotifyUrl = item["external_urls"]?["spotify"]?.ToString() ?? string.Empty,
+                AlbumArtUrl = item["album"]?["images"]?[0]?["url"]?.ToString() ?? string.Empty,
+                SpotifyId = item["id"]?.ToString() ?? string.Empty
             };
         }
 
@@ -198,12 +198,12 @@ namespace MusicJournal.Services
                     {
                         recs.Add(new RecTrack
                         {
-                            Title = item["name"]?.ToString(),
-                            Artist = item["artists"]?[0]?["name"]?.ToString(),
-                            Album = item["album"]?["name"]?.ToString(),
-                            SpotifyUrl = item["external_urls"]?["spotify"]?.ToString(),
-                            AlbumArtUrl = item["album"]?["images"]?[0]?["url"]?.ToString(),
-                            SpotifyId = item["id"]?.ToString()
+                            Title = item["name"]?.ToString() ?? string.Empty,
+                            Artist = item["artists"]?[0]?["name"]?.ToString() ?? string.Empty,
+                            Album = item["album"]?["name"]?.ToString() ?? string.Empty,
+                            SpotifyUrl = item["external_urls"]?["spotify"]?.ToString() ?? string.Empty,
+                            AlbumArtUrl = item["album"]?["images"]?[0]?["url"]?.ToString() ?? string.Empty,
+                            SpotifyId = item["id"]?.ToString() ?? string.Empty
                         });
                     }
                 }

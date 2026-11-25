@@ -115,7 +115,7 @@ else
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach (var fav in ViewBag.AllFavorites as List<MusicJournal.Models.FavoriteTrack>)
+                        @foreach (var fav in (ViewBag.AllFavorites as List<MusicJournal.Models.FavoriteTrack>) ?? new List<MusicJournal.Models.FavoriteTrack>())
                     {
                         <tr>
                             <td class="text-center">
