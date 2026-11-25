@@ -51,7 +51,7 @@ namespace MusicJournal.Services
 
             var json = JObject.Parse(await response.Content.ReadAsStringAsync());
             _cachedToken = json["access_token"]?.ToString() ?? throw new InvalidOperationException("Failed to retrieve access token.");
-            
+
             var expiresInSeconds = json["expires_in"]?.Value<int>() ?? 3600;
             _tokenExpiration = DateTime.UtcNow.AddSeconds(expiresInSeconds - 300);
 
@@ -61,14 +61,14 @@ namespace MusicJournal.Services
         public async Task<List<GlobalTrack>> GetTop50Playlist(int year)
         {
             var token = await GetAccessToken();
-            
+
             var url = $"https://api.spotify.com/v1/search?q=year:{year}&type=track&limit=10&market=US";
 
             var request = new HttpRequestMessage(HttpMethod.Get, url);
             request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
             var response = await _http.SendAsync(request);
-            
+
             if (!response.IsSuccessStatusCode)
             {
                 var responseBody = await response.Content.ReadAsStringAsync();

@@ -8,7 +8,7 @@ namespace MusicJournal.Models.ViewModels
         public bool HasMoreResults { get; set; }
 
         public List<TrackResult> SearchResults { get; set; }
-            
+
         public CreateFavoriteViewModel()
         {
             SearchResults = new List<TrackResult>();
