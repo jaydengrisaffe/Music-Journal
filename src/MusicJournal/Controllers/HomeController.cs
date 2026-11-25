@@ -18,9 +18,9 @@ namespace MusicJournal.Controllers
         private readonly SpotifyService _spotifyService;
 
         public HomeController(
-            ILogger<HomeController> logger, 
-            ApplicationDbContext context, 
-            UserManager<ApplicationUser> userManager, 
+            ILogger<HomeController> logger,
+            ApplicationDbContext context,
+            UserManager<ApplicationUser> userManager,
             IAIService aiService,
             SpotifyService spotifyService)
         {

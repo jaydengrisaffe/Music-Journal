@@ -24,7 +24,7 @@ public class CustomWebApplicationFactory : WebApplicationFactory<Program>
         {
             logging.ClearProviders();
         });
-        
+
         builder.ConfigureServices(services =>
         {
             // 1. Remove production DbContext
