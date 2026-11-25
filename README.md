@@ -164,6 +164,12 @@ See docs/BACKLOG.md for the current product backlog.
 
 The unit test suite exercises core domain entities, data annotations, and database controller workflows using xUnit, Moq, and an in-memory SQLite provider. Code coverage metrics are tracked with Coverlet and compiled into human-readable text and interactive HTML reports via ReportGenerator.
 
+## CI & Branch Protection
+
+Pull requests targeting `main` run automated checks via GitHub Actions (`.github/workflows/ci.yml`), including formatting verification (`dotnet format --verify-no-changes`), xUnit test execution, and Coverlet/ReportGenerator coverage output.
+
+Branch protection on `main` enforces pull requests and requires CI checks to pass before merging so broken builds or style regressions do not land on `main`.
+
 ### Environment Setup
 
 Before running tests, ensure that the .NET global tools directory is added to your environment path with `export PATH="$PATH:$HOME/.dotnet/tools"`. If ReportGenerator is not yet installed on your machine, install it globally by running `dotnet tool install -g dotnet-reportgenerator-globaltool`.
