@@ -8,11 +8,11 @@ namespace MusicJournal.Models
 
         [Required]
         [StringLength(200)]
-        public string Title { get; set; }
+        public string Title { get; set; } = string.Empty;
 
         [Required]
         [StringLength(200)]
-        public string Artist { get; set; }
+        public string Artist { get; set; } = string.Empty;
 
         [StringLength(200)]
         public string? Album { get; set; }
@@ -25,12 +25,9 @@ namespace MusicJournal.Models
         [StringLength(500)]
         public string? SpotifyId { get; set; }
 
-
-
         [StringLength(500)]
         public string? AlbumArtUrl { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-
     }
 }

@@ -2,7 +2,7 @@ namespace MusicJournal.Models.ViewModels
 {
     public class CreateFavoriteViewModel
     {
-        public string SearchQuery { get; set; }
+        public string SearchQuery { get; set; } = string.Empty;
         public int SearchPages { get; set; }
         public int SearchSize { get; set; }
         public bool HasMoreResults { get; set; }
@@ -20,12 +20,11 @@ namespace MusicJournal.Models.ViewModels
 
     public class TrackResult
     {
-        public string Title { get; set; }
-        public string Artist { get; set; }
-        public string Album { get; set; }
-        public string SpotifyUrl { get; set; }
-        public string AlbumArtUrl { get; set; }
-
-        public string SpotifyId { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string Artist { get; set; } = string.Empty;
+        public string Album { get; set; } = string.Empty;
+        public string SpotifyUrl { get; set; } = string.Empty;
+        public string AlbumArtUrl { get; set; } = string.Empty;
+        public string SpotifyId { get; set; } = string.Empty;
     }
 }
