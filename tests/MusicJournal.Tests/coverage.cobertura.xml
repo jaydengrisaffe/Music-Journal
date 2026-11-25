@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="1" branch-rate="0.9787" version="1.9" timestamp="1795571358" lines-covered="449" lines-valid="449" branches-covered="92" branches-valid="94">
+<coverage line-rate="1" branch-rate="0.9411" version="1.9" timestamp="1795572034" lines-covered="449" lines-valid="449" branches-covered="96" branches-valid="102">
   <sources>
     <source>/Users/jaydengrisaffe/Repos/Music-Journal/src/MusicJournal/</source>
   </sources>
   <packages>
-    <package name="MusicJournal" line-rate="1" branch-rate="0.9787" complexity="163">
+    <package name="MusicJournal" line-rate="1" branch-rate="0.9411" complexity="170">
       <classes>
         <class name="MusicJournal.Models.ApplicationUser" filename="Models/ApplicationUser.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
@@ -69,17 +69,17 @@
             </method>
             <method name="get_UserId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="52" branch="False" />
+                <line number="11" hits="98" branch="False" />
               </lines>
             </method>
             <method name="get_Title" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="73" branch="False" />
+                <line number="15" hits="119" branch="False" />
               </lines>
             </method>
             <method name="get_Artist" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="19" hits="72" branch="False" />
+                <line number="19" hits="118" branch="False" />
               </lines>
             </method>
             <method name="get_Album" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -104,7 +104,7 @@
             </method>
             <method name="get_GlobalTrack" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="33" hits="2" branch="False" />
+                <line number="33" hits="48" branch="False" />
               </lines>
             </method>
             <method name="get_AlbumArtUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -130,14 +130,14 @@
           </methods>
           <lines>
             <line number="8" hits="29" branch="False" />
-            <line number="11" hits="52" branch="False" />
-            <line number="15" hits="73" branch="False" />
-            <line number="19" hits="72" branch="False" />
+            <line number="11" hits="98" branch="False" />
+            <line number="15" hits="119" branch="False" />
+            <line number="19" hits="118" branch="False" />
             <line number="22" hits="22" branch="False" />
             <line number="25" hits="21" branch="False" />
             <line number="28" hits="30" branch="False" />
             <line number="31" hits="11" branch="False" />
-            <line number="33" hits="2" branch="False" />
+            <line number="33" hits="48" branch="False" />
             <line number="36" hits="21" branch="False" />
             <line number="39" hits="21" branch="False" />
             <line number="41" hits="53" branch="False" />
@@ -153,12 +153,12 @@
             </method>
             <method name="get_Title" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="30" branch="False" />
+                <line number="11" hits="49" branch="False" />
               </lines>
             </method>
             <method name="get_Artist" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="29" branch="False" />
+                <line number="15" hits="48" branch="False" />
               </lines>
             </method>
             <method name="get_Album" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -183,25 +183,25 @@
             </method>
             <method name="get_AlbumArtUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="31" hits="19" branch="False" />
+                <line number="29" hits="19" branch="False" />
               </lines>
             </method>
             <method name="get_CreatedAt" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="33" hits="23" branch="False" />
+                <line number="31" hits="23" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="7" hits="14" branch="False" />
-            <line number="11" hits="30" branch="False" />
-            <line number="15" hits="29" branch="False" />
+            <line number="11" hits="49" branch="False" />
+            <line number="15" hits="48" branch="False" />
             <line number="18" hits="21" branch="False" />
             <line number="20" hits="8" branch="False" />
             <line number="23" hits="20" branch="False" />
             <line number="26" hits="22" branch="False" />
-            <line number="31" hits="19" branch="False" />
-            <line number="33" hits="23" branch="False" />
+            <line number="29" hits="19" branch="False" />
+            <line number="31" hits="23" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Models.RecTrack" filename="Models/RecTrack.cs" line-rate="1" branch-rate="1" complexity="7">
@@ -256,7 +256,7 @@
           <methods>
             <method name="get_SearchQuery" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="5" hits="2" branch="False" />
+                <line number="5" hits="4" branch="False" />
               </lines>
             </method>
             <method name="get_SearchPages" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -292,7 +292,7 @@
             </method>
           </methods>
           <lines>
-            <line number="5" hits="2" branch="False" />
+            <line number="5" hits="4" branch="False" />
             <line number="6" hits="4" branch="False" />
             <line number="7" hits="4" branch="False" />
             <line number="8" hits="3" branch="False" />
@@ -310,42 +310,42 @@
           <methods>
             <method name="get_Title" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="23" hits="1" branch="False" />
+                <line number="23" hits="2" branch="False" />
               </lines>
             </method>
             <method name="get_Artist" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="1" branch="False" />
+                <line number="24" hits="2" branch="False" />
               </lines>
             </method>
             <method name="get_Album" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="25" hits="1" branch="False" />
+                <line number="25" hits="2" branch="False" />
               </lines>
             </method>
             <method name="get_SpotifyUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="26" hits="1" branch="False" />
+                <line number="26" hits="2" branch="False" />
               </lines>
             </method>
             <method name="get_AlbumArtUrl" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="27" hits="1" branch="False" />
+                <line number="27" hits="2" branch="False" />
               </lines>
             </method>
             <method name="get_SpotifyId" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="29" hits="1" branch="False" />
+                <line number="28" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="23" hits="1" branch="False" />
-            <line number="24" hits="1" branch="False" />
-            <line number="25" hits="1" branch="False" />
-            <line number="26" hits="1" branch="False" />
-            <line number="27" hits="1" branch="False" />
-            <line number="29" hits="1" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="24" hits="2" branch="False" />
+            <line number="25" hits="2" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="28" hits="2" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Models.ViewModels.ProfileViewModel" filename="Models/ViewModels/ProfileViewModel.cs" line-rate="1" branch-rate="1" complexity="4">
@@ -454,11 +454,18 @@
             <line number="23" hits="21" branch="False" />
           </lines>
         </class>
-        <class name="MusicJournal.Controllers.FavoriteTracksController/&lt;&gt;c" filename="Controllers/FavoriteTracksController.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="MusicJournal.Controllers.FavoriteTracksController/&lt;&gt;c" filename="Controllers/FavoriteTracksController.cs" line-rate="1" branch-rate="0.5" complexity="10">
           <methods>
-            <method name="&lt;Create&gt;b__5_0" signature="(MusicJournal.Models.FavoriteTrack)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="&lt;Create&gt;b__5_0" signature="(MusicJournal.Models.FavoriteTrack)" line-rate="1" branch-rate="0.5" complexity="8">
               <lines>
-                <line number="65" hits="2" branch="False" />
+                <line number="65" hits="2" branch="True" condition-coverage="50% (4/8)">
+                  <conditions>
+                    <condition number="39" type="jump" coverage="50%" />
+                    <condition number="61" type="jump" coverage="50%" />
+                    <condition number="83" type="jump" coverage="50%" />
+                    <condition number="105" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
                 <line number="66" hits="2" branch="False" />
                 <line number="67" hits="2" branch="False" />
                 <line number="68" hits="2" branch="False" />
@@ -471,17 +478,24 @@
             </method>
             <method name="&lt;AddToFavorites&gt;b__6_0" signature="(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateEntry)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="144" hits="1" branch="False" />
+                <line number="142" hits="1" branch="False" />
               </lines>
             </method>
             <method name="&lt;AddToFavorites&gt;b__6_1" signature="(Microsoft.AspNetCore.Mvc.ModelBinding.ModelError)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="145" hits="2" branch="False" />
+                <line number="143" hits="2" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="65" hits="2" branch="False" />
+            <line number="65" hits="2" branch="True" condition-coverage="50% (4/8)">
+              <conditions>
+                <condition number="39" type="jump" coverage="50%" />
+                <condition number="61" type="jump" coverage="50%" />
+                <condition number="83" type="jump" coverage="50%" />
+                <condition number="105" type="jump" coverage="50%" />
+              </conditions>
+            </line>
             <line number="66" hits="2" branch="False" />
             <line number="67" hits="2" branch="False" />
             <line number="68" hits="2" branch="False" />
@@ -490,44 +504,46 @@
             <line number="71" hits="2" branch="False" />
             <line number="72" hits="2" branch="False" />
             <line number="73" hits="2" branch="False" />
-            <line number="144" hits="1" branch="False" />
-            <line number="145" hits="2" branch="False" />
+            <line number="142" hits="1" branch="False" />
+            <line number="143" hits="2" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.FavoriteTracksController/&lt;AddFromTrending&gt;d__9" filename="Controllers/FavoriteTracksController.cs" line-rate="1" branch-rate="1" complexity="6">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="6">
               <lines>
-                <line number="196" hits="3" branch="False" />
-                <line number="197" hits="3" branch="False" />
-                <line number="198" hits="3" branch="True" condition-coverage="100% (2/2)">
+                <line number="194" hits="3" branch="False" />
+                <line number="195" hits="3" branch="False" />
+                <line number="196" hits="3" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="253" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="199" hits="1" branch="False" />
-                <line number="200" hits="1" branch="False" />
+                <line number="197" hits="1" branch="False" />
+                <line number="198" hits="1" branch="False" />
+                <line number="201" hits="2" branch="False" />
+                <line number="202" hits="2" branch="False" />
                 <line number="203" hits="2" branch="False" />
-                <line number="204" hits="2" branch="False" />
-                <line number="205" hits="2" branch="False" />
+                <line number="206" hits="2" branch="False" />
+                <line number="207" hits="2" branch="False" />
                 <line number="208" hits="2" branch="False" />
                 <line number="209" hits="2" branch="False" />
-                <line number="210" hits="2" branch="False" />
-                <line number="211" hits="2" branch="False" />
-                <line number="213" hits="2" branch="True" condition-coverage="100% (2/2)">
+                <line number="211" hits="2" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="813" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="214" hits="1" branch="False" />
-                <line number="215" hits="1" branch="False" />
-                <line number="218" hits="1" branch="False" />
-                <line number="219" hits="1" branch="False" />
-                <line number="221" hits="1" branch="True" condition-coverage="100% (2/2)">
+                <line number="212" hits="1" branch="False" />
+                <line number="213" hits="1" branch="False" />
+                <line number="216" hits="1" branch="False" />
+                <line number="217" hits="1" branch="False" />
+                <line number="219" hits="1" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="1126" type="jump" coverage="100%" />
                   </conditions>
                 </line>
+                <line number="220" hits="1" branch="False" />
+                <line number="221" hits="1" branch="False" />
                 <line number="222" hits="1" branch="False" />
                 <line number="223" hits="1" branch="False" />
                 <line number="224" hits="1" branch="False" />
@@ -540,49 +556,49 @@
                 <line number="231" hits="1" branch="False" />
                 <line number="232" hits="1" branch="False" />
                 <line number="233" hits="1" branch="False" />
-                <line number="234" hits="1" branch="False" />
                 <line number="235" hits="1" branch="False" />
-                <line number="237" hits="1" branch="False" />
+                <line number="236" hits="1" branch="False" />
                 <line number="238" hits="1" branch="False" />
                 <line number="240" hits="1" branch="False" />
-                <line number="242" hits="1" branch="False" />
+                <line number="241" hits="1" branch="False" />
                 <line number="243" hits="1" branch="False" />
-                <line number="245" hits="1" branch="False" />
-                <line number="246" hits="3" branch="False" />
+                <line number="244" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="196" hits="3" branch="False" />
-            <line number="197" hits="3" branch="False" />
-            <line number="198" hits="3" branch="True" condition-coverage="100% (2/2)">
+            <line number="194" hits="3" branch="False" />
+            <line number="195" hits="3" branch="False" />
+            <line number="196" hits="3" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="253" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="199" hits="1" branch="False" />
-            <line number="200" hits="1" branch="False" />
+            <line number="197" hits="1" branch="False" />
+            <line number="198" hits="1" branch="False" />
+            <line number="201" hits="2" branch="False" />
+            <line number="202" hits="2" branch="False" />
             <line number="203" hits="2" branch="False" />
-            <line number="204" hits="2" branch="False" />
-            <line number="205" hits="2" branch="False" />
+            <line number="206" hits="2" branch="False" />
+            <line number="207" hits="2" branch="False" />
             <line number="208" hits="2" branch="False" />
             <line number="209" hits="2" branch="False" />
-            <line number="210" hits="2" branch="False" />
-            <line number="211" hits="2" branch="False" />
-            <line number="213" hits="2" branch="True" condition-coverage="100% (2/2)">
+            <line number="211" hits="2" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="813" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="214" hits="1" branch="False" />
-            <line number="215" hits="1" branch="False" />
-            <line number="218" hits="1" branch="False" />
-            <line number="219" hits="1" branch="False" />
-            <line number="221" hits="1" branch="True" condition-coverage="100% (2/2)">
+            <line number="212" hits="1" branch="False" />
+            <line number="213" hits="1" branch="False" />
+            <line number="216" hits="1" branch="False" />
+            <line number="217" hits="1" branch="False" />
+            <line number="219" hits="1" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="1126" type="jump" coverage="100%" />
               </conditions>
             </line>
+            <line number="220" hits="1" branch="False" />
+            <line number="221" hits="1" branch="False" />
             <line number="222" hits="1" branch="False" />
             <line number="223" hits="1" branch="False" />
             <line number="224" hits="1" branch="False" />
@@ -595,15 +611,13 @@
             <line number="231" hits="1" branch="False" />
             <line number="232" hits="1" branch="False" />
             <line number="233" hits="1" branch="False" />
-            <line number="234" hits="1" branch="False" />
             <line number="235" hits="1" branch="False" />
-            <line number="237" hits="1" branch="False" />
+            <line number="236" hits="1" branch="False" />
             <line number="238" hits="1" branch="False" />
             <line number="240" hits="1" branch="False" />
-            <line number="242" hits="1" branch="False" />
+            <line number="241" hits="1" branch="False" />
             <line number="243" hits="1" branch="False" />
-            <line number="245" hits="1" branch="False" />
-            <line number="246" hits="3" branch="False" />
+            <line number="244" hits="3" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.FavoriteTracksController/&lt;AddToFavorites&gt;d__6" filename="Controllers/FavoriteTracksController.cs" line-rate="1" branch-rate="1" complexity="6">
@@ -619,29 +633,31 @@
                 <line number="92" hits="4" branch="False" />
                 <line number="95" hits="4" branch="False" />
                 <line number="96" hits="4" branch="False" />
-                <line number="100" hits="4" branch="True" condition-coverage="100% (2/2)">
+                <line number="98" hits="4" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="808" type="jump" coverage="100%" />
                   </conditions>
                 </line>
+                <line number="99" hits="1" branch="False" />
+                <line number="100" hits="1" branch="False" />
                 <line number="101" hits="1" branch="False" />
                 <line number="102" hits="1" branch="False" />
-                <line number="103" hits="1" branch="False" />
-                <line number="104" hits="1" branch="False" />
-                <line number="107" hits="3" branch="True" condition-coverage="100% (2/2)">
+                <line number="105" hits="3" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="907" type="jump" coverage="100%" />
                   </conditions>
                 </line>
+                <line number="106" hits="2" branch="False" />
+                <line number="107" hits="2" branch="False" />
                 <line number="108" hits="2" branch="False" />
-                <line number="109" hits="2" branch="False" />
-                <line number="110" hits="2" branch="False" />
-                <line number="112" hits="2" branch="True" condition-coverage="100% (2/2)">
+                <line number="110" hits="2" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="1195" type="jump" coverage="100%" />
                   </conditions>
                 </line>
+                <line number="111" hits="1" branch="False" />
                 <line number="113" hits="1" branch="False" />
+                <line number="114" hits="1" branch="False" />
                 <line number="115" hits="1" branch="False" />
                 <line number="116" hits="1" branch="False" />
                 <line number="117" hits="1" branch="False" />
@@ -653,21 +669,19 @@
                 <line number="123" hits="1" branch="False" />
                 <line number="124" hits="1" branch="False" />
                 <line number="125" hits="1" branch="False" />
-                <line number="126" hits="1" branch="False" />
-                <line number="127" hits="1" branch="False" />
-                <line number="129" hits="2" branch="False" />
+                <line number="127" hits="2" branch="False" />
+                <line number="128" hits="2" branch="False" />
                 <line number="130" hits="2" branch="False" />
                 <line number="132" hits="2" branch="False" />
-                <line number="134" hits="2" branch="False" />
+                <line number="133" hits="2" branch="False" />
                 <line number="135" hits="2" branch="False" />
-                <line number="137" hits="2" branch="False" />
+                <line number="136" hits="2" branch="False" />
                 <line number="138" hits="2" branch="False" />
-                <line number="140" hits="2" branch="False" />
-                <line number="143" hits="1" branch="False" />
+                <line number="141" hits="1" branch="False" />
+                <line number="145" hits="1" branch="False" />
+                <line number="146" hits="1" branch="False" />
                 <line number="147" hits="1" branch="False" />
-                <line number="148" hits="1" branch="False" />
-                <line number="149" hits="1" branch="False" />
-                <line number="150" hits="4" branch="False" />
+                <line number="148" hits="4" branch="False" />
               </lines>
             </method>
           </methods>
@@ -681,29 +695,31 @@
             <line number="92" hits="4" branch="False" />
             <line number="95" hits="4" branch="False" />
             <line number="96" hits="4" branch="False" />
-            <line number="100" hits="4" branch="True" condition-coverage="100% (2/2)">
+            <line number="98" hits="4" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="808" type="jump" coverage="100%" />
               </conditions>
             </line>
+            <line number="99" hits="1" branch="False" />
+            <line number="100" hits="1" branch="False" />
             <line number="101" hits="1" branch="False" />
             <line number="102" hits="1" branch="False" />
-            <line number="103" hits="1" branch="False" />
-            <line number="104" hits="1" branch="False" />
-            <line number="107" hits="3" branch="True" condition-coverage="100% (2/2)">
+            <line number="105" hits="3" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="907" type="jump" coverage="100%" />
               </conditions>
             </line>
+            <line number="106" hits="2" branch="False" />
+            <line number="107" hits="2" branch="False" />
             <line number="108" hits="2" branch="False" />
-            <line number="109" hits="2" branch="False" />
-            <line number="110" hits="2" branch="False" />
-            <line number="112" hits="2" branch="True" condition-coverage="100% (2/2)">
+            <line number="110" hits="2" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="1195" type="jump" coverage="100%" />
               </conditions>
             </line>
+            <line number="111" hits="1" branch="False" />
             <line number="113" hits="1" branch="False" />
+            <line number="114" hits="1" branch="False" />
             <line number="115" hits="1" branch="False" />
             <line number="116" hits="1" branch="False" />
             <line number="117" hits="1" branch="False" />
@@ -715,21 +731,19 @@
             <line number="123" hits="1" branch="False" />
             <line number="124" hits="1" branch="False" />
             <line number="125" hits="1" branch="False" />
-            <line number="126" hits="1" branch="False" />
-            <line number="127" hits="1" branch="False" />
-            <line number="129" hits="2" branch="False" />
+            <line number="127" hits="2" branch="False" />
+            <line number="128" hits="2" branch="False" />
             <line number="130" hits="2" branch="False" />
             <line number="132" hits="2" branch="False" />
-            <line number="134" hits="2" branch="False" />
+            <line number="133" hits="2" branch="False" />
             <line number="135" hits="2" branch="False" />
-            <line number="137" hits="2" branch="False" />
+            <line number="136" hits="2" branch="False" />
             <line number="138" hits="2" branch="False" />
-            <line number="140" hits="2" branch="False" />
-            <line number="143" hits="1" branch="False" />
+            <line number="141" hits="1" branch="False" />
+            <line number="145" hits="1" branch="False" />
+            <line number="146" hits="1" branch="False" />
             <line number="147" hits="1" branch="False" />
-            <line number="148" hits="1" branch="False" />
-            <line number="149" hits="1" branch="False" />
-            <line number="150" hits="4" branch="False" />
+            <line number="148" hits="4" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.FavoriteTracksController/&lt;Create&gt;d__5" filename="Controllers/FavoriteTracksController.cs" line-rate="1" branch-rate="1" complexity="4">
@@ -802,94 +816,94 @@
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="154" hits="3" branch="False" />
-                <line number="155" hits="3" branch="True" condition-coverage="100% (2/2)">
+                <line number="152" hits="3" branch="False" />
+                <line number="153" hits="3" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="78" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="156" hits="1" branch="False" />
-                <line number="157" hits="1" branch="False" />
+                <line number="154" hits="1" branch="False" />
+                <line number="155" hits="1" branch="False" />
+                <line number="158" hits="2" branch="False" />
+                <line number="159" hits="2" branch="False" />
                 <line number="160" hits="2" branch="False" />
                 <line number="161" hits="2" branch="False" />
-                <line number="162" hits="2" branch="False" />
-                <line number="163" hits="2" branch="False" />
-                <line number="165" hits="2" branch="True" condition-coverage="100% (2/2)">
+                <line number="163" hits="2" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="654" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="166" hits="1" branch="False" />
-                <line number="167" hits="1" branch="False" />
-                <line number="170" hits="1" branch="False" />
-                <line number="171" hits="3" branch="False" />
+                <line number="164" hits="1" branch="False" />
+                <line number="165" hits="1" branch="False" />
+                <line number="168" hits="1" branch="False" />
+                <line number="169" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="154" hits="3" branch="False" />
-            <line number="155" hits="3" branch="True" condition-coverage="100% (2/2)">
+            <line number="152" hits="3" branch="False" />
+            <line number="153" hits="3" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="78" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="156" hits="1" branch="False" />
-            <line number="157" hits="1" branch="False" />
+            <line number="154" hits="1" branch="False" />
+            <line number="155" hits="1" branch="False" />
+            <line number="158" hits="2" branch="False" />
+            <line number="159" hits="2" branch="False" />
             <line number="160" hits="2" branch="False" />
             <line number="161" hits="2" branch="False" />
-            <line number="162" hits="2" branch="False" />
-            <line number="163" hits="2" branch="False" />
-            <line number="165" hits="2" branch="True" condition-coverage="100% (2/2)">
+            <line number="163" hits="2" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="654" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="166" hits="1" branch="False" />
-            <line number="167" hits="1" branch="False" />
-            <line number="170" hits="1" branch="False" />
-            <line number="171" hits="3" branch="False" />
+            <line number="164" hits="1" branch="False" />
+            <line number="165" hits="1" branch="False" />
+            <line number="168" hits="1" branch="False" />
+            <line number="169" hits="3" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.FavoriteTracksController/&lt;DeleteConfirmed&gt;d__8" filename="Controllers/FavoriteTracksController.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="2">
               <lines>
+                <line number="175" hits="1" branch="False" />
+                <line number="176" hits="1" branch="False" />
                 <line number="177" hits="1" branch="False" />
                 <line number="178" hits="1" branch="False" />
                 <line number="179" hits="1" branch="False" />
-                <line number="180" hits="1" branch="False" />
-                <line number="181" hits="1" branch="False" />
-                <line number="183" hits="1" branch="True" condition-coverage="100% (2/2)">
+                <line number="181" hits="1" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="607" type="jump" coverage="100%" />
                   </conditions>
                 </line>
+                <line number="182" hits="1" branch="False" />
+                <line number="183" hits="1" branch="False" />
                 <line number="184" hits="1" branch="False" />
                 <line number="185" hits="1" branch="False" />
-                <line number="186" hits="1" branch="False" />
                 <line number="187" hits="1" branch="False" />
-                <line number="189" hits="1" branch="False" />
-                <line number="190" hits="1" branch="False" />
+                <line number="188" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
+            <line number="175" hits="1" branch="False" />
+            <line number="176" hits="1" branch="False" />
             <line number="177" hits="1" branch="False" />
             <line number="178" hits="1" branch="False" />
             <line number="179" hits="1" branch="False" />
-            <line number="180" hits="1" branch="False" />
-            <line number="181" hits="1" branch="False" />
-            <line number="183" hits="1" branch="True" condition-coverage="100% (2/2)">
+            <line number="181" hits="1" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="607" type="jump" coverage="100%" />
               </conditions>
             </line>
+            <line number="182" hits="1" branch="False" />
+            <line number="183" hits="1" branch="False" />
             <line number="184" hits="1" branch="False" />
             <line number="185" hits="1" branch="False" />
-            <line number="186" hits="1" branch="False" />
             <line number="187" hits="1" branch="False" />
-            <line number="189" hits="1" branch="False" />
-            <line number="190" hits="1" branch="False" />
+            <line number="188" hits="1" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.FavoriteTracksController/&lt;Index&gt;d__4" filename="Controllers/FavoriteTracksController.cs" line-rate="1" branch-rate="1" complexity="4">
@@ -950,58 +964,58 @@
           <methods>
             <method name="MoveNext" signature="()" line-rate="1" branch-rate="0.875" complexity="8">
               <lines>
-                <line number="252" hits="4" branch="False" />
-                <line number="253" hits="4" branch="True" condition-coverage="83.33% (5/6)">
+                <line number="250" hits="4" branch="False" />
+                <line number="251" hits="4" branch="True" condition-coverage="83.33% (5/6)">
                   <conditions>
                     <condition number="82" type="jump" coverage="100%" />
                     <condition number="96" type="jump" coverage="50%" />
                     <condition number="120" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="254" hits="1" branch="False" />
-                <line number="255" hits="1" branch="False" />
+                <line number="252" hits="1" branch="False" />
+                <line number="253" hits="1" branch="False" />
+                <line number="256" hits="3" branch="False" />
                 <line number="258" hits="3" branch="False" />
-                <line number="260" hits="3" branch="False" />
-                <line number="261" hits="3" branch="False" />
-                <line number="263" hits="3" branch="True" condition-coverage="100% (2/2)">
+                <line number="259" hits="3" branch="False" />
+                <line number="261" hits="3" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
                     <condition number="643" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="264" hits="1" branch="False" />
-                <line number="265" hits="1" branch="False" />
-                <line number="268" hits="2" branch="False" />
+                <line number="262" hits="1" branch="False" />
+                <line number="263" hits="1" branch="False" />
+                <line number="266" hits="2" branch="False" />
+                <line number="267" hits="2" branch="False" />
                 <line number="269" hits="2" branch="False" />
-                <line number="271" hits="2" branch="False" />
-                <line number="272" hits="4" branch="False" />
+                <line number="270" hits="4" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="252" hits="4" branch="False" />
-            <line number="253" hits="4" branch="True" condition-coverage="83.33% (5/6)">
+            <line number="250" hits="4" branch="False" />
+            <line number="251" hits="4" branch="True" condition-coverage="83.33% (5/6)">
               <conditions>
                 <condition number="82" type="jump" coverage="100%" />
                 <condition number="96" type="jump" coverage="50%" />
                 <condition number="120" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="254" hits="1" branch="False" />
-            <line number="255" hits="1" branch="False" />
+            <line number="252" hits="1" branch="False" />
+            <line number="253" hits="1" branch="False" />
+            <line number="256" hits="3" branch="False" />
             <line number="258" hits="3" branch="False" />
-            <line number="260" hits="3" branch="False" />
-            <line number="261" hits="3" branch="False" />
-            <line number="263" hits="3" branch="True" condition-coverage="100% (2/2)">
+            <line number="259" hits="3" branch="False" />
+            <line number="261" hits="3" branch="True" condition-coverage="100% (2/2)">
               <conditions>
                 <condition number="643" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="264" hits="1" branch="False" />
-            <line number="265" hits="1" branch="False" />
-            <line number="268" hits="2" branch="False" />
+            <line number="262" hits="1" branch="False" />
+            <line number="263" hits="1" branch="False" />
+            <line number="266" hits="2" branch="False" />
+            <line number="267" hits="2" branch="False" />
             <line number="269" hits="2" branch="False" />
-            <line number="271" hits="2" branch="False" />
-            <line number="272" hits="4" branch="False" />
+            <line number="270" hits="4" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.GlobalTracksController" filename="Controllers/GlobalTracksController.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -1370,8 +1384,15 @@
             <line number="73" hits="6" branch="False" />
           </lines>
         </class>
-        <class name="MusicJournal.Controllers.RecommendationsController" filename="Controllers/RecommendationsController.cs" line-rate="1" branch-rate="1" complexity="2">
+        <class name="MusicJournal.Controllers.RecommendationsController" filename="Controllers/RecommendationsController.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
+            <method name="GenerateNew" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="129" hits="1" branch="False" />
+                <line number="130" hits="1" branch="False" />
+                <line number="131" hits="1" branch="False" />
+              </lines>
+            </method>
             <method name="RemoveAlreadyFavorited" signature="(System.Collections.Generic.List`1&lt;MusicJournal.Models.RecTrack&gt;,System.Collections.Generic.List`1&lt;MusicJournal.Models.FavoriteTrack&gt;)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="166" hits="2" branch="False" />
@@ -1401,6 +1422,9 @@
             </method>
           </methods>
           <lines>
+            <line number="129" hits="1" branch="False" />
+            <line number="130" hits="1" branch="False" />
+            <line number="131" hits="1" branch="False" />
             <line number="166" hits="2" branch="False" />
             <line number="167" hits="2" branch="False" />
             <line number="168" hits="2" branch="False" />
@@ -1636,22 +1660,6 @@
             <line number="160" hits="1" branch="False" />
             <line number="162" hits="1" branch="False" />
             <line number="163" hits="3" branch="False" />
-          </lines>
-        </class>
-        <class name="MusicJournal.Controllers.RecommendationsController/&lt;GenerateNew&gt;d__7" filename="Controllers/RecommendationsController.cs" line-rate="1" branch-rate="1" complexity="1">
-          <methods>
-            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="129" hits="1" branch="False" />
-                <line number="130" hits="1" branch="False" />
-                <line number="131" hits="1" branch="False" />
-              </lines>
-            </method>
-          </methods>
-          <lines>
-            <line number="129" hits="1" branch="False" />
-            <line number="130" hits="1" branch="False" />
-            <line number="131" hits="1" branch="False" />
           </lines>
         </class>
         <class name="MusicJournal.Controllers.RecommendationsController/&lt;Index&gt;d__5" filename="Controllers/RecommendationsController.cs" line-rate="1" branch-rate="1" complexity="12">

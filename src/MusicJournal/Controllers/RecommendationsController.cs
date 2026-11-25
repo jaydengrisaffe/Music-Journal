@@ -34,7 +34,7 @@ namespace MusicJournal.Controllers
             var user = await _userManager.GetUserAsync(User);
 
             var favoriteTracks = await _context.FavoriteTracks
-                .Where(f => f.UserId == user.Id)
+                .Where(f => f.UserId == user!.Id)
                 .ToListAsync();
 
             if (!favoriteTracks.Any())
@@ -80,7 +80,7 @@ namespace MusicJournal.Controllers
             var user = await _userManager.GetUserAsync(User);
 
             var exists = await _context.FavoriteTracks
-                .AnyAsync(f => f.UserId == user.Id && f.Title == title && f.Artist == artist);
+                .AnyAsync(f => f.UserId == user!.Id && f.Title == title && f.Artist == artist);
 
             if (!exists)
             {
@@ -106,7 +106,7 @@ namespace MusicJournal.Controllers
 
                 var favoriteTrack = new FavoriteTrack
                 {
-                    UserId = user.Id,
+                    UserId = user!.Id,
                     GlobalTrackId = globalTrack.Id,
                     Title = title,
                     Artist = artist,
@@ -125,9 +125,9 @@ namespace MusicJournal.Controllers
         }
 
         // GET: Regenerate recommendations
-        public async Task<IActionResult> GenerateNew()
+        public Task<IActionResult> GenerateNew()
         {
-            return RedirectToAction("Index");
+            return Task.FromResult<IActionResult>(RedirectToAction("Index"));
         }
 
         // POST: Generate recommendations based on selected favorites
@@ -151,7 +151,7 @@ namespace MusicJournal.Controllers
 
             var user = await _userManager.GetUserAsync(User);
             var favorites = await _context.FavoriteTracks
-                .Where(f => f.UserId == user.Id)
+                .Where(f => f.UserId == user!.Id)
                 .ToListAsync();
 
             ViewBag.AllFavorites = favorites;
