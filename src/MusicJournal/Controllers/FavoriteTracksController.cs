@@ -27,7 +27,7 @@ namespace MusicJournal.Controllers
             var user = await _userManager.GetUserAsync(User);
 
             var favoritesQuery = _context.FavoriteTracks
-                .Where(f => f.UserId == user.Id);
+                .Where(f => f.UserId == user!.Id);
 
             if (rating.HasValue)
             {
@@ -57,7 +57,7 @@ namespace MusicJournal.Controllers
             {
                 var user = await _userManager.GetUserAsync(User);
                 var searchLocation = "US";
-                if (user.Location != null)
+                if (user!.Location != null)
                 {
                     searchLocation = user.Location;
                 }
@@ -66,10 +66,10 @@ namespace MusicJournal.Controllers
                 {
                     Title = r.Title,
                     Artist = r.Artist,
-                    Album = r.Album,
-                    SpotifyUrl = r.SpotifyUrl,
-                    AlbumArtUrl = r.AlbumArtUrl,
-                    SpotifyId = r.SpotifyId
+                    Album = r.Album ?? string.Empty,
+                    SpotifyUrl = r.SpotifyUrl ?? string.Empty,
+                    AlbumArtUrl = r.AlbumArtUrl ?? string.Empty,
+                    SpotifyId = r.SpotifyId ?? string.Empty
                 }).ToList();
 
                 // Determine if there are more results based on returned item count
@@ -93,9 +93,7 @@ namespace MusicJournal.Controllers
 
             // Check if chosen song is already in favorites
             var existingFavorite = await _context.FavoriteTracks.FirstOrDefaultAsync(
-                f => f.UserId == user.Id && f.Title == favoriteTrack.Title && f.Artist == favoriteTrack.Artist);
-
-
+                f => f.UserId == user!.Id && f.Title == favoriteTrack.Title && f.Artist == favoriteTrack.Artist);
 
             if (existingFavorite != null)
             {
@@ -126,7 +124,7 @@ namespace MusicJournal.Controllers
                     await _context.SaveChangesAsync();
                 }
 
-                favoriteTrack.UserId = user.Id;
+                favoriteTrack.UserId = user!.Id;
                 favoriteTrack.CreatedAt = DateTime.Now;
 
                 favoriteTrack.GlobalTrackId = globalTrack.Id;
@@ -159,7 +157,7 @@ namespace MusicJournal.Controllers
 
             var user = await _userManager.GetUserAsync(User);
             var favoriteTrack = await _context.FavoriteTracks
-                .Where(f => f.UserId == user.Id) // Their own tracks
+                .Where(f => f.UserId == user!.Id) // Their own tracks
                 .FirstOrDefaultAsync(m => m.Id == id);
 
             if (favoriteTrack == null)
@@ -177,7 +175,7 @@ namespace MusicJournal.Controllers
         {
             var user = await _userManager.GetUserAsync(User);
             var favoriteTrack = await _context.FavoriteTracks
-                .Where(f => f.UserId == user.Id)
+                .Where(f => f.UserId == user!.Id)
                 .FirstOrDefaultAsync(f => f.Id == id);
 
             if (favoriteTrack != null)
@@ -258,7 +256,7 @@ namespace MusicJournal.Controllers
             var user = await _userManager.GetUserAsync(User);
 
             var favoriteTrack = await _context.FavoriteTracks
-                .FirstOrDefaultAsync(f => f.Id == id && f.UserId == user.Id);
+                .FirstOrDefaultAsync(f => f.Id == id && f.UserId == user!.Id);
 
             if (favoriteTrack == null)
             {
